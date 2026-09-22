@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 16:59+0200\n"
+"POT-Creation-Date: 2026-09-23 00:39+0100\n"
 "PO-Revision-Date: 2026-03-03 09:09+0000\n"
 "Last-Translator: \"V. Elle\" <leonardo.luzzi@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/unvanquished/"
@@ -18,11 +18,11 @@ msgstr ""
 "X-Generator: Weblate 5.17-dev\n"
 "X-POOTLE-MTIME: 1398638831.0\n"
 
-#: ui/alien_build.rml:126 ui/human_build.rml:127
+#: ui/alien_build.rml:132 ui/human_build.rml:133
 msgid "Build"
 msgstr "costruzione"
 
-#: ui/alien_build.rml:133 ui/alien_evo.rml:147 ui/human_build.rml:133
+#: ui/alien_build.rml:139 ui/alien_evo.rml:147 ui/human_build.rml:139
 #: ui/human_buy.rml:217 ui/human_buy.rml:233
 msgid "Price:"
 msgstr "Costo:"
@@ -410,9 +410,9 @@ msgstr "Sotto attacco"
 #: ui/help_gameplay.rml:118
 msgid ""
 "The [reactor] reactor and the [overmind] overmind will issue warnings to the "
-"team when at 75% health, at 50% health, at 25% health and when destroyed."
-"Destroying other buildings will trigger “under attack” warnings for the "
-"owning team."
+"team when at 75% health, at 50% health, at 25% health and when "
+"destroyed.Destroying other buildings will trigger “under attack” warnings "
+"for the owning team."
 msgstr ""
 "Il reattore [reactor] e l'overmind [overmind] darà l'allarme alla squadra se "
 "al 75% della sua salute, al 50%, al 25% e quando viene distrutto. La "
@@ -780,6 +780,34 @@ msgstr "Beta"
 msgid "Fields of view"
 msgstr "Campi visivi"
 
+#: ui/options.rml:11
+msgid "Player"
+msgstr "Giocatore"
+
+#: ui/options.rml:13 ui/options_movements_cosmetic.rml:7
+msgid "Movement and Cosmetic"
+msgstr "Movimento e Cosmesi"
+
+#: ui/options.rml:15 ui/options_graphics.rml:20
+msgid "Graphics"
+msgstr "Grafica"
+
+#: ui/options.rml:17 ui/options_keys.rml:7
+msgid "Key bindings"
+msgstr "Impostazione tasti"
+
+#: ui/options.rml:19 ui/options_mouse.rml:7
+msgid "Mouse and Aiming"
+msgstr "Mouse e Mira"
+
+#: ui/options.rml:21 ui/options_sound.rml:7
+msgid "Sound"
+msgstr "Audio"
+
+#: ui/options.rml:23
+msgid "User interface and HUD"
+msgstr "Interfaccia utente e HUD"
+
 #: ui/options_bots.rml:10
 msgid "Add an alien bot"
 msgstr "Aggiungi un bot alieno"
@@ -894,7 +922,7 @@ msgid "Mild"
 msgstr "Mite"
 
 #: ui/options_fov.rml:78 ui/options_fov.rml:89
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "Default"
 msgstr "Predefinito"
 
@@ -913,10 +941,6 @@ msgstr "Basculamento camera"
 #: ui/options_fov.rml:92
 msgid "Twisting movement"
 msgstr "Movimento di torsione"
-
-#: ui/options_graphics.rml:20 ui/options.rml:15
-msgid "Graphics"
-msgstr "Grafica"
 
 #: ui/options_graphics.rml:23 ui/options_graphics.rml:25 ui/options_keys.rml:12
 #: ui/server_setup.rml:162
@@ -1282,7 +1306,7 @@ msgstr ""
 "non creai problemi di prestazioni."
 
 #: ui/options_graphics.rml:232 ui/options_ui.rml:30
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No"
 msgstr "No"
 
@@ -1581,10 +1605,6 @@ msgstr "Livello di sfocatura movimento."
 msgid "Minimum movement speed for motion-blur to activate"
 msgstr "Velocità minima di movimento per attivare la sfocatura"
 
-#: ui/options_keys.rml:7 ui/options.rml:17
-msgid "Key bindings"
-msgstr "Impostazione tasti"
-
 #: ui/options_keys.rml:9
 msgid "Press Escape to cancel changing a key binding."
 msgstr "Premi Escape per annullare il cambio associazione tasto."
@@ -1800,10 +1820,6 @@ msgstr "Visuale mouse:"
 msgid "Centerview:"
 msgstr "Visuale in centro:"
 
-#: ui/options_mouse.rml:7 ui/options.rml:19
-msgid "Mouse and Aiming"
-msgstr "Mouse e Mira"
-
 #: ui/options_mouse.rml:9
 msgid "Y axis"
 msgstr "Asse Y"
@@ -1847,10 +1863,6 @@ msgstr ""
 #: ui/options_mouse.rml:37
 msgid "Circle menus (excluding Armoury menu) take mouse inputs"
 msgstr ""
-
-#: ui/options_movements_cosmetic.rml:7 ui/options.rml:13
-msgid "Movement and Cosmetic"
-msgstr "Movimento e Cosmesi"
 
 #: ui/options_movements_cosmetic.rml:8
 msgid "Movement"
@@ -2004,18 +2016,6 @@ msgstr "Mostra solo chat di squadra"
 #: ui/options_player.rml:224
 msgid "Show obituaries"
 msgstr ""
-
-#: ui/options.rml:11
-msgid "Player"
-msgstr "Giocatore"
-
-#: ui/options.rml:21 ui/options_sound.rml:7
-msgid "Sound"
-msgstr "Audio"
-
-#: ui/options.rml:23
-msgid "User interface and HUD"
-msgstr "Interfaccia utente e HUD"
 
 #: ui/options_sound.rml:9
 msgid "Global volume"
@@ -4809,74 +4809,116 @@ msgstr ""
 msgid "Same as screen (%dx%d)"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1399
+msgid "This buildable is disabled on this server"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:743
+#, c-format
+msgid "The %s has not been unlocked yet"
+msgstr "Il %s non è stato ancora sbloccato"
+
+#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:562
+msgid "Building has been disabled for your team"
+msgstr "La costruzione di strutture è disattivata per la tua squadra"
+
+#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:663
+#: src/cgame/cg_servercmds.cpp:703
+msgid "There is no Overmind"
+msgstr "Non c'è nessun Overmind"
+
+#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:669
+msgid "There can only be one Overmind"
+msgstr "Ci può essere un solo Overmind"
+
+#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:590
+msgid "There is no reactor"
+msgstr "Non c'è il reattore"
+
+#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:596
+msgid "There can only be one Reactor"
+msgstr "Ci può essere solo un Reattore"
+
+#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:674
+msgid "Your team cannot have any more leeches"
+msgstr "La tua squadra non può avere altri leech"
+
+#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:601
+msgid "Your team cannot have any more drills"
+msgstr "La tua squadra non puo avere altri drill"
+
+#: src/cgame/cg_rocket_datasource.cpp:1436
+msgid "Not enough build points"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "The default behavior. This is what bots do when the game starts."
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1558
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
+#: src/cgame/cg_rocket_datasource.cpp:1558
 msgid "The bots stay in the base."
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1559
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack"
 msgstr "Attacco"
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
+#: src/cgame/cg_rocket_datasource.cpp:1559
 msgid "The bots attack the enemy base."
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "Stay Here"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "The bots stay where you are currently."
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1561
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
+#: src/cgame/cg_rocket_datasource.cpp:1561
 msgid "The bots follow you wherever you go."
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend our base!!"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack!"
 msgstr "Attacca!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow me!"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No."
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes"
 msgstr "Si"
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes."
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank, behind you!"
 msgstr ""
 
@@ -5094,10 +5136,6 @@ msgstr "Non puoi demolire questa struttura"
 msgid "Building has been disabled on the server for your team."
 msgstr "Le funzioni di costruzione sono state disabilitate per la tua squadra."
 
-#: src/cgame/cg_servercmds.cpp:562
-msgid "Building has been disabled for your team"
-msgstr "La costruzione di strutture è disattivata per la tua squadra"
-
 #: src/cgame/cg_servercmds.cpp:566
 msgid "You are no longer permitted to build."
 msgstr "Non ti è piu permesso di costruire."
@@ -5146,24 +5184,12 @@ msgstr ""
 "Non c'è nessun reattore. Deve essere costruito un reattore prima di ogni "
 "altra struttura."
 
-#: src/cgame/cg_servercmds.cpp:590
-msgid "There is no reactor"
-msgstr "Non c'è il reattore"
-
 #: src/cgame/cg_servercmds.cpp:594
 msgid ""
 "There can only be one Reactor. Mark the existing one if you wish to move it."
 msgstr ""
 "Ci può essere un solo Reattore. Seleziona quello già esistente se desideri "
 "spostarlo."
-
-#: src/cgame/cg_servercmds.cpp:596
-msgid "There can only be one Reactor"
-msgstr "Ci può essere solo un Reattore"
-
-#: src/cgame/cg_servercmds.cpp:601
-msgid "Your team cannot have any more drills"
-msgstr "La tua squadra non puo avere altri drill"
 
 #: src/cgame/cg_servercmds.cpp:605
 msgid ""
@@ -5266,24 +5292,12 @@ msgstr ""
 "Non c'è nessun Overmind. Deve essere costruito un Overmind prima di "
 "qualsiasi altra struttura."
 
-#: src/cgame/cg_servercmds.cpp:663 src/cgame/cg_servercmds.cpp:703
-msgid "There is no Overmind"
-msgstr "Non c'è nessun Overmind"
-
 #: src/cgame/cg_servercmds.cpp:667
 msgid ""
 "There can only be one Overmind. Deconstruct the existing one if you wish to "
 "move it."
 msgstr ""
 "Ci può essere solo Overmind. Demolisci l'esistente se desideri spostarlo."
-
-#: src/cgame/cg_servercmds.cpp:669
-msgid "There can only be one Overmind"
-msgstr "Ci può essere un solo Overmind"
-
-#: src/cgame/cg_servercmds.cpp:674
-msgid "Your team cannot have any more leeches"
-msgstr "La tua squadra non può avere altri leech"
 
 #: src/cgame/cg_servercmds.cpp:678
 msgid ""
@@ -5367,11 +5381,6 @@ msgstr "Non puoi rigenerarti come un %s"
 msgid "The %s is not allowed"
 msgstr "Il/la %s non è ammessa/o"
 
-#: src/cgame/cg_servercmds.cpp:743
-#, c-format
-msgid "The %s has not been unlocked yet"
-msgstr "Il %s non è stato ancora sbloccato"
-
 #: src/cgame/cg_servercmds.cpp:748
 #, c-format
 msgid "cgame: debug: no such menu %d"
@@ -5391,7 +5400,7 @@ msgstr "%sMessaggio privato da: ^7%s"
 msgid ">> to reply, say: '/m %d [your message]' or '/r [your message]' <<"
 msgstr ""
 
-#: src/cgame/cg_servercmds.cpp:1390
+#: src/cgame/cg_servercmds.cpp:1411
 #, c-format
 msgid "Unknown client game command: %s"
 msgstr "Comando client del gioco sconosciuto: %s"
@@ -5758,11 +5767,11 @@ msgstr "^1La generazione della navmesh del bot non è riuscita!"
 msgid "Server: generating bot navigation meshes... $1$%"
 msgstr "Server: generazione mesh di navigazione bot... $1$%"
 
-#: src/sgame/sg_buildable.cpp:1702
+#: src/sgame/sg_buildable.cpp:1804
 msgid "$1$ ^2built^* by $2$^*, ^3replacing^* $3$"
 msgstr "$1$ ^2costruito^* da $2$^*, ^3sostituendo^* $3$"
 
-#: src/sgame/sg_buildable.cpp:1703
+#: src/sgame/sg_buildable.cpp:1805
 msgid "$1$ ^2built^* by $2$$3$"
 msgstr "$1$ ^2costruito^* da $2$$3$"
 
@@ -6051,12 +6060,10 @@ msgid "Team vote passed ($1$ — $2$)"
 msgstr "Team vote passato ($1$ — $2$)"
 
 #: src/sgame/sg_votes.cpp:892
-#, c-format
 msgid "Vote failed ($1$ — $2$; $3$% needed)"
 msgstr "Voto fallito ($1$ — $2$; $3$% necessario)"
 
 #: src/sgame/sg_votes.cpp:893
-#, c-format
 msgid "Team vote failed ($1$ — $2$; $3$% needed)"
 msgstr "Team vote fallito ($1$ — $2$; $3$% necessario)"
 
@@ -6479,8 +6486,8 @@ msgstr "umani"
 #~ "find at https://bugs.unvanquished.net"
 #~ msgstr ""
 #~ "Questa è una versione beta di Unvanquished. Per qualsiasi tipo di "
-#~ "problema che riscontri, fai una segnalazione su https://bugs.unvanquished."
-#~ "net"
+#~ "problema che riscontri, fai una segnalazione su https://"
+#~ "bugs.unvanquished.net"
 
 #~ msgid "Particles"
 #~ msgstr "Particelle"
@@ -11613,7 +11620,7 @@ msgstr "umani"
 #~ "amount"
 #~ msgstr ""
 #~ "cambiare la durata di un'espulsione. la durata è specificata da un numero "
-#~ "seguito da delle unità 'w' (settimane), 'd' (giorni), 'h' (ore) or "
-#~ "'m' (minuti), o secondi se l'unità non è specificata. se la durata è "
+#~ "seguito da delle unità 'w' (settimane), 'd' (giorni), 'h' (ore) or 'm' "
+#~ "(minuti), o secondi se l'unità non è specificata. se la durata è "
 #~ "preceduta da + o -, il tempo del ban sarà esteso o accorciato della "
 #~ "quantità specificata"

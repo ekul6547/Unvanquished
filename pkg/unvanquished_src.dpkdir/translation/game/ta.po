@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 16:59+0200\n"
+"POT-Creation-Date: 2026-09-23 00:39+0100\n"
 "PO-Revision-Date: 2025-06-06 09:40+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/unvanquished/"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: ui/alien_build.rml:126 ui/human_build.rml:127
+#: ui/alien_build.rml:132 ui/human_build.rml:133
 msgid "Build"
 msgstr "உருவாக்கு"
 
-#: ui/alien_build.rml:133 ui/alien_evo.rml:147 ui/human_build.rml:133
+#: ui/alien_build.rml:139 ui/alien_evo.rml:147 ui/human_build.rml:139
 #: ui/human_buy.rml:217 ui/human_buy.rml:233
 msgid "Price:"
 msgstr "விலை:"
@@ -400,9 +400,9 @@ msgstr "தாக்குதலுக்கு உள்ளாகும்"
 #: ui/help_gameplay.rml:118
 msgid ""
 "The [reactor] reactor and the [overmind] overmind will issue warnings to the "
-"team when at 75% health, at 50% health, at 25% health and when destroyed."
-"Destroying other buildings will trigger “under attack” warnings for the "
-"owning team."
+"team when at 75% health, at 50% health, at 25% health and when "
+"destroyed.Destroying other buildings will trigger “under attack” warnings "
+"for the owning team."
 msgstr ""
 "[உலை] உலை மற்றும் [மிகைப்படுத்தப்பட்ட] மேலதிகாரி 75% ஆரோக்கியத்தில், 50% ஆரோக்கியத்தில், "
 "25% ஆரோக்கியத்தில் மற்றும் அழிக்கப்படும்போது அணிக்கு எச்சரிக்கைகளை வழங்கும்."
@@ -762,6 +762,34 @@ msgstr "பீட்டா"
 msgid "Fields of view"
 msgstr "பார்வைத் துறைகள்"
 
+#: ui/options.rml:11
+msgid "Player"
+msgstr "வீரர்"
+
+#: ui/options.rml:13 ui/options_movements_cosmetic.rml:7
+msgid "Movement and Cosmetic"
+msgstr "இயக்கம் மற்றும் ஒப்பனை"
+
+#: ui/options.rml:15 ui/options_graphics.rml:20
+msgid "Graphics"
+msgstr "கிராபிக்ச்"
+
+#: ui/options.rml:17 ui/options_keys.rml:7
+msgid "Key bindings"
+msgstr "முக்கிய பிணைப்புகள்"
+
+#: ui/options.rml:19 ui/options_mouse.rml:7
+msgid "Mouse and Aiming"
+msgstr "சுட்டி மற்றும் நோக்கம்"
+
+#: ui/options.rml:21 ui/options_sound.rml:7
+msgid "Sound"
+msgstr "ஒலி"
+
+#: ui/options.rml:23
+msgid "User interface and HUD"
+msgstr "பயனர் இடைமுகம் மற்றும் HUD"
+
 #: ui/options_bots.rml:10
 msgid "Add an alien bot"
 msgstr "ஒரு அன்னிய போட் சேர்க்கவும்"
@@ -875,7 +903,7 @@ msgid "Mild"
 msgstr "லேசான"
 
 #: ui/options_fov.rml:78 ui/options_fov.rml:89
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "Default"
 msgstr "இயல்புநிலை"
 
@@ -894,10 +922,6 @@ msgstr "கேமரா உருட்டல்"
 #: ui/options_fov.rml:92
 msgid "Twisting movement"
 msgstr "முறுக்கு இயக்கம்"
-
-#: ui/options_graphics.rml:20 ui/options.rml:15
-msgid "Graphics"
-msgstr "கிராபிக்ச்"
 
 #: ui/options_graphics.rml:23 ui/options_graphics.rml:25 ui/options_keys.rml:12
 #: ui/server_setup.rml:162
@@ -1265,7 +1289,7 @@ msgstr ""
 "மேற்பரப்புகளை சிறப்பாகக் காட்டுகிறது. இது பொதுவாக செயல்திறனை பாதிக்காது."
 
 #: ui/options_graphics.rml:232 ui/options_ui.rml:30
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No"
 msgstr "இல்லை"
 
@@ -1570,10 +1594,6 @@ msgstr "மோசன்-ப்ளூரின் நிலை."
 msgid "Minimum movement speed for motion-blur to activate"
 msgstr "இயக்க-BLUR ஐ செயல்படுத்த குறைந்தபட்ச இயக்க விரைவு"
 
-#: ui/options_keys.rml:7 ui/options.rml:17
-msgid "Key bindings"
-msgstr "முக்கிய பிணைப்புகள்"
-
 #: ui/options_keys.rml:9
 msgid "Press Escape to cancel changing a key binding."
 msgstr "முக்கிய பிணைப்பை மாற்றுவதை ரத்து செய்ய எச்கேப் அழுத்தவும்."
@@ -1789,10 +1809,6 @@ msgstr "சுட்டி தோற்றம்:"
 msgid "Centerview:"
 msgstr "சென்டர்வியூ:"
 
-#: ui/options_mouse.rml:7 ui/options.rml:19
-msgid "Mouse and Aiming"
-msgstr "சுட்டி மற்றும் நோக்கம்"
-
 #: ui/options_mouse.rml:9
 msgid "Y axis"
 msgstr "ஒய் அச்சு"
@@ -1836,10 +1852,6 @@ msgstr "வட்டம் பட்டியல் சுட்டி பிட
 #: ui/options_mouse.rml:37
 msgid "Circle menus (excluding Armoury menu) take mouse inputs"
 msgstr "வட்டம் மெனுக்கள் (ஆர்மரி மெனுவைத் தவிர்த்து) சுட்டி உள்ளீடுகளை எடுத்துக் கொள்ளுங்கள்"
-
-#: ui/options_movements_cosmetic.rml:7 ui/options.rml:13
-msgid "Movement and Cosmetic"
-msgstr "இயக்கம் மற்றும் ஒப்பனை"
 
 #: ui/options_movements_cosmetic.rml:8
 msgid "Movement"
@@ -1995,18 +2007,6 @@ msgstr "குழு அரட்டையை மட்டும் காட்
 #: ui/options_player.rml:224
 msgid "Show obituaries"
 msgstr "இரங்கல்களைக் காட்டு"
-
-#: ui/options.rml:11
-msgid "Player"
-msgstr "வீரர்"
-
-#: ui/options.rml:21 ui/options_sound.rml:7
-msgid "Sound"
-msgstr "ஒலி"
-
-#: ui/options.rml:23
-msgid "User interface and HUD"
-msgstr "பயனர் இடைமுகம் மற்றும் HUD"
 
 #: ui/options_sound.rml:9
 msgid "Global volume"
@@ -4758,74 +4758,116 @@ msgstr "தனிப்பயன்: %dx %d"
 msgid "Same as screen (%dx%d)"
 msgstr "திரை அதே (%dx%d)"
 
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1399
+msgid "This buildable is disabled on this server"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:743
+#, c-format
+msgid "The %s has not been unlocked yet"
+msgstr "%s இன்னும் திறக்கப்படவில்லை"
+
+#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:562
+msgid "Building has been disabled for your team"
+msgstr "உங்கள் அணிக்கு கட்டிடம் முடக்கப்பட்டுள்ளது"
+
+#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:663
+#: src/cgame/cg_servercmds.cpp:703
+msgid "There is no Overmind"
+msgstr "மிகைப்படுத்தல் இல்லை"
+
+#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:669
+msgid "There can only be one Overmind"
+msgstr "ஒரு மிகைப்படுத்தல் மட்டுமே இருக்க முடியும்"
+
+#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:590
+msgid "There is no reactor"
+msgstr "உலை இல்லை"
+
+#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:596
+msgid "There can only be one Reactor"
+msgstr "ஒரு உலை மட்டுமே இருக்க முடியும்"
+
+#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:674
+msgid "Your team cannot have any more leeches"
+msgstr "உங்கள் குழுவில் மேலும் லீச்ச்கள் இருக்க முடியாது"
+
+#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:601
+msgid "Your team cannot have any more drills"
+msgstr "உங்கள் குழுவில் மேலும் பயிற்சிகள் இருக்க முடியாது"
+
+#: src/cgame/cg_rocket_datasource.cpp:1436
+msgid "Not enough build points"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "The default behavior. This is what bots do when the game starts."
 msgstr "இயல்புநிலை நடத்தை. விளையாட்டு தொடங்கும் போது போட்கள் இதைத்தான் செய்கின்றன."
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1558
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend"
 msgstr "பாதுகாக்க"
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
+#: src/cgame/cg_rocket_datasource.cpp:1558
 msgid "The bots stay in the base."
 msgstr "போட்கள் அடிவாரத்தில் இருக்கும்."
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1559
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack"
 msgstr "தாக்குதல்"
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
+#: src/cgame/cg_rocket_datasource.cpp:1559
 msgid "The bots attack the enemy base."
 msgstr "போட்கள் எதிரி தளத்தைத் தாக்குகின்றன."
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "Stay Here"
 msgstr "இங்கேயே இருங்கள்"
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "The bots stay where you are currently."
 msgstr "நீங்கள் தற்போது இருக்கும் இடத்தில் போட்கள் தங்குகின்றன."
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1561
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow"
 msgstr "பின்தொடர்"
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
+#: src/cgame/cg_rocket_datasource.cpp:1561
 msgid "The bots follow you wherever you go."
 msgstr "நீங்கள் எங்கு சென்றாலும் போட்கள் உங்களைப் பின்தொடர்கின்றன."
 
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend our base!!"
 msgstr "எங்கள் தளத்தைப் பாதுகாக்கவும் !!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack!"
 msgstr "தாக்குதல்!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow me!"
 msgstr "என்னைப் பின்தொடரவும்!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No."
 msgstr "இல்லை."
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes"
 msgstr "ஆம்"
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes."
 msgstr "ஆம்."
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank"
 msgstr "பக்கவாட்டு"
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank, behind you!"
 msgstr "பக்கவாட்டு, உங்களுக்கு பின்னால்!"
 
@@ -5036,10 +5078,6 @@ msgstr "இந்த கட்டமைப்பை நீங்கள் மற
 msgid "Building has been disabled on the server for your team."
 msgstr "உங்கள் அணிக்கான சேவையகத்தில் கட்டிடம் முடக்கப்பட்டுள்ளது."
 
-#: src/cgame/cg_servercmds.cpp:562
-msgid "Building has been disabled for your team"
-msgstr "உங்கள் அணிக்கு கட்டிடம் முடக்கப்பட்டுள்ளது"
-
 #: src/cgame/cg_servercmds.cpp:566
 msgid "You are no longer permitted to build."
 msgstr "நீங்கள் இனி கட்ட அனுமதிக்கப்படுவதில்லை."
@@ -5086,24 +5124,12 @@ msgid ""
 "be placed."
 msgstr "உலை இல்லை. வேறு எந்த கட்டமைப்பையும் வைப்பதற்கு முன்பு ஒரு உலை கட்டப்பட வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:590
-msgid "There is no reactor"
-msgstr "உலை இல்லை"
-
 #: src/cgame/cg_servercmds.cpp:594
 msgid ""
 "There can only be one Reactor. Mark the existing one if you wish to move it."
 msgstr ""
 "ஒரு உலை மட்டுமே இருக்க முடியும். நீங்கள் அதை நகர்த்த விரும்பினால் ஏற்கனவே இருக்கும் ஒன்றைக் "
 "குறிக்கவும்."
-
-#: src/cgame/cg_servercmds.cpp:596
-msgid "There can only be one Reactor"
-msgstr "ஒரு உலை மட்டுமே இருக்க முடியும்"
-
-#: src/cgame/cg_servercmds.cpp:601
-msgid "Your team cannot have any more drills"
-msgstr "உங்கள் குழுவில் மேலும் பயிற்சிகள் இருக்க முடியாது"
 
 #: src/cgame/cg_servercmds.cpp:605
 msgid ""
@@ -5205,10 +5231,6 @@ msgstr ""
 "மிகைப்படுத்தல் இல்லை. வேறு எந்த கட்டமைப்பையும் வைப்பதற்கு முன்பு ஒரு மிகைப்படுத்தல் கட்டப்பட "
 "வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:663 src/cgame/cg_servercmds.cpp:703
-msgid "There is no Overmind"
-msgstr "மிகைப்படுத்தல் இல்லை"
-
 #: src/cgame/cg_servercmds.cpp:667
 msgid ""
 "There can only be one Overmind. Deconstruct the existing one if you wish to "
@@ -5216,14 +5238,6 @@ msgid ""
 msgstr ""
 "ஒரு மிகைப்படுத்தல் மட்டுமே இருக்க முடியும். நீங்கள் அதை நகர்த்த விரும்பினால் ஏற்கனவே "
 "இருக்கும் ஒன்றை மறுகட்டமைக்கவும்."
-
-#: src/cgame/cg_servercmds.cpp:669
-msgid "There can only be one Overmind"
-msgstr "ஒரு மிகைப்படுத்தல் மட்டுமே இருக்க முடியும்"
-
-#: src/cgame/cg_servercmds.cpp:674
-msgid "Your team cannot have any more leeches"
-msgstr "உங்கள் குழுவில் மேலும் லீச்ச்கள் இருக்க முடியாது"
 
 #: src/cgame/cg_servercmds.cpp:678
 msgid ""
@@ -5306,11 +5320,6 @@ msgstr "நீங்கள் ஒரு %s ஆக உருவாக முட�
 msgid "The %s is not allowed"
 msgstr "%s அனுமதிக்கப்படவில்லை"
 
-#: src/cgame/cg_servercmds.cpp:743
-#, c-format
-msgid "The %s has not been unlocked yet"
-msgstr "%s இன்னும் திறக்கப்படவில்லை"
-
 #: src/cgame/cg_servercmds.cpp:748
 #, c-format
 msgid "cgame: debug: no such menu %d"
@@ -5330,7 +5339,7 @@ msgstr "%sதனிப்பட்ட செய்தி இவரிடமி�
 msgid ">> to reply, say: '/m %d [your message]' or '/r [your message]' <<"
 msgstr "பதிலளிக்க, '/m %d [உங்கள் செய்தி]' அல்லது '/r [உங்கள் செய்தி]' <<"
 
-#: src/cgame/cg_servercmds.cpp:1390
+#: src/cgame/cg_servercmds.cpp:1411
 #, c-format
 msgid "Unknown client game command: %s"
 msgstr "தெரியாத கிளையன்ட் விளையாட்டு கட்டளை: %s"
@@ -5696,11 +5705,11 @@ msgstr "T 1 போட் நவ்மேச் தலைமுறை தோல�
 msgid "Server: generating bot navigation meshes... $1$%"
 msgstr "சேவையகம்: போட் வழிசெலுத்தல் மெச்களை உருவாக்குதல் ... $ 1 $%"
 
-#: src/sgame/sg_buildable.cpp:1702
+#: src/sgame/sg_buildable.cpp:1804
 msgid "$1$ ^2built^* by $2$^*, ^3replacing^* $3$"
 msgstr "$ 1 $^2 பில்ட்^* ஆல் $ 2 $^*,^3replacing^* $ 3 $"
 
-#: src/sgame/sg_buildable.cpp:1703
+#: src/sgame/sg_buildable.cpp:1805
 msgid "$1$ ^2built^* by $2$$3$"
 msgstr "$ 1 $ ^2 கட்டப்பட்ட ^* $ 2 $$ 3 by"
 
@@ -5992,12 +6001,12 @@ msgid "Team vote passed ($1$ — $2$)"
 msgstr "குழு வாக்கு நிறைவேற்றப்பட்டது ($ 1 $ - $ 2 $)"
 
 #: src/sgame/sg_votes.cpp:892
-#, c-format
+#, fuzzy
 msgid "Vote failed ($1$ — $2$; $3$% needed)"
 msgstr "வாக்கு தோல்வியுற்றது ($1$ - $2$; $3$% தேவை)"
 
 #: src/sgame/sg_votes.cpp:893
-#, c-format
+#, fuzzy
 msgid "Team vote failed ($1$ — $2$; $3$% needed)"
 msgstr "குழு வாக்கு தோல்வியடைந்தது ($1$ - $2$; $3$% தேவை)"
 

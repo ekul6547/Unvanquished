@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 16:59+0200\n"
+"POT-Creation-Date: 2026-09-23 00:39+0100\n"
 "PO-Revision-Date: 2025-10-10 13:07+0000\n"
 "Last-Translator: SecularSteve <fairfull.playing@gmail.com>\n"
 "Language-Team: Bosnian <https://hosted.weblate.org/projects/unvanquished/"
@@ -20,11 +20,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14-dev\n"
 
-#: ui/alien_build.rml:126 ui/human_build.rml:127
+#: ui/alien_build.rml:132 ui/human_build.rml:133
 msgid "Build"
 msgstr "Verzija"
 
-#: ui/alien_build.rml:133 ui/alien_evo.rml:147 ui/human_build.rml:133
+#: ui/alien_build.rml:139 ui/alien_evo.rml:147 ui/human_build.rml:139
 #: ui/human_buy.rml:217 ui/human_buy.rml:233
 msgid "Price:"
 msgstr "Cijena:"
@@ -407,9 +407,9 @@ msgstr "Pod napadom"
 #: ui/help_gameplay.rml:118
 msgid ""
 "The [reactor] reactor and the [overmind] overmind will issue warnings to the "
-"team when at 75% health, at 50% health, at 25% health and when destroyed."
-"Destroying other buildings will trigger “under attack” warnings for the "
-"owning team."
+"team when at 75% health, at 50% health, at 25% health and when "
+"destroyed.Destroying other buildings will trigger “under attack” warnings "
+"for the owning team."
 msgstr ""
 "Reaktor [reactor] i nadsvjesni [overmind] će izdavati upozorenja timu kada "
 "su na 75% srčane snage, na 50% srčane snage, na 25% srčane snage i kada su "
@@ -773,6 +773,34 @@ msgstr "Beta verzija"
 msgid "Fields of view"
 msgstr "Vidna polja"
 
+#: ui/options.rml:11
+msgid "Player"
+msgstr "Igrač"
+
+#: ui/options.rml:13 ui/options_movements_cosmetic.rml:7
+msgid "Movement and Cosmetic"
+msgstr "Pokret i kozmetika"
+
+#: ui/options.rml:15 ui/options_graphics.rml:20
+msgid "Graphics"
+msgstr "Grafika"
+
+#: ui/options.rml:17 ui/options_keys.rml:7
+msgid "Key bindings"
+msgstr "Veze tipki"
+
+#: ui/options.rml:19 ui/options_mouse.rml:7
+msgid "Mouse and Aiming"
+msgstr "Miš i ciljanje"
+
+#: ui/options.rml:21 ui/options_sound.rml:7
+msgid "Sound"
+msgstr "Zvuk"
+
+#: ui/options.rml:23
+msgid "User interface and HUD"
+msgstr "Korisnički interfejs i HUD"
+
 #: ui/options_bots.rml:10
 msgid "Add an alien bot"
 msgstr "Dodajte vanzemaljskog bota"
@@ -886,7 +914,7 @@ msgid "Mild"
 msgstr "Blago"
 
 #: ui/options_fov.rml:78 ui/options_fov.rml:89
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "Default"
 msgstr "Zadano"
 
@@ -905,10 +933,6 @@ msgstr "Kamera snima"
 #: ui/options_fov.rml:92
 msgid "Twisting movement"
 msgstr "Uvijanje"
-
-#: ui/options_graphics.rml:20 ui/options.rml:15
-msgid "Graphics"
-msgstr "Grafika"
 
 #: ui/options_graphics.rml:23 ui/options_graphics.rml:25 ui/options_keys.rml:12
 #: ui/server_setup.rml:162
@@ -1278,7 +1302,7 @@ msgstr ""
 "rezolucije na njima. Ovo uglavnom ne utiče na performanse."
 
 #: ui/options_graphics.rml:232 ui/options_ui.rml:30
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No"
 msgstr "Ne"
 
@@ -1584,10 +1608,6 @@ msgstr "Nivo zamućenja pokreta."
 msgid "Minimum movement speed for motion-blur to activate"
 msgstr "Minimalna brzina kretanja za aktiviranje zamućenja pokreta"
 
-#: ui/options_keys.rml:7 ui/options.rml:17
-msgid "Key bindings"
-msgstr "Veze tipki"
-
 #: ui/options_keys.rml:9
 msgid "Press Escape to cancel changing a key binding."
 msgstr "Pritisnite Escape da biste otkazali promjenu kombinacije tipki."
@@ -1803,10 +1823,6 @@ msgstr "Izgled miša:"
 msgid "Centerview:"
 msgstr "Središnji pogled:"
 
-#: ui/options_mouse.rml:7 ui/options.rml:19
-msgid "Mouse and Aiming"
-msgstr "Miš i ciljanje"
-
 #: ui/options_mouse.rml:9
 msgid "Y axis"
 msgstr "Y osa"
@@ -1850,10 +1866,6 @@ msgstr "Snimanje mišem u kružnom meniju"
 #: ui/options_mouse.rml:37
 msgid "Circle menus (excluding Armoury menu) take mouse inputs"
 msgstr "Kružni meniji (osim menija Oružarnica) primaju unose mišem"
-
-#: ui/options_movements_cosmetic.rml:7 ui/options.rml:13
-msgid "Movement and Cosmetic"
-msgstr "Pokret i kozmetika"
 
 #: ui/options_movements_cosmetic.rml:8
 msgid "Movement"
@@ -2006,18 +2018,6 @@ msgstr "Prikaži samo timski chat"
 #: ui/options_player.rml:224
 msgid "Show obituaries"
 msgstr "Prikaži osmrtnice"
-
-#: ui/options.rml:11
-msgid "Player"
-msgstr "Igrač"
-
-#: ui/options.rml:21 ui/options_sound.rml:7
-msgid "Sound"
-msgstr "Zvuk"
-
-#: ui/options.rml:23
-msgid "User interface and HUD"
-msgstr "Korisnički interfejs i HUD"
 
 #: ui/options_sound.rml:9
 msgid "Global volume"
@@ -4809,74 +4809,116 @@ msgstr "Prilagođeno: %dx%d"
 msgid "Same as screen (%dx%d)"
 msgstr "Isto kao i ekran (%dx%d)"
 
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1399
+msgid "This buildable is disabled on this server"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:743
+#, c-format
+msgid "The %s has not been unlocked yet"
+msgstr "%s još nije otključano"
+
+#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:562
+msgid "Building has been disabled for your team"
+msgstr "Izgradnja je onemogućena za vaš tim"
+
+#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:663
+#: src/cgame/cg_servercmds.cpp:703
+msgid "There is no Overmind"
+msgstr "Ne postoji Nadsvestan um"
+
+#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:669
+msgid "There can only be one Overmind"
+msgstr "Može postojati samo jedan Nadsvest"
+
+#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:590
+msgid "There is no reactor"
+msgstr "Nema reaktora"
+
+#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:596
+msgid "There can only be one Reactor"
+msgstr "Može postojati samo jedan reaktor"
+
+#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:674
+msgid "Your team cannot have any more leeches"
+msgstr "Vaš tim ne može imati više pijavica"
+
+#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:601
+msgid "Your team cannot have any more drills"
+msgstr "Vaš tim ne može imati više vježbi"
+
+#: src/cgame/cg_rocket_datasource.cpp:1436
+msgid "Not enough build points"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "The default behavior. This is what bots do when the game starts."
 msgstr "Zadano ponašanje. Ovo je ono što botovi rade kada igra počne."
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1558
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend"
 msgstr "Braniti"
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
+#: src/cgame/cg_rocket_datasource.cpp:1558
 msgid "The bots stay in the base."
 msgstr "Botovi ostaju u bazi."
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1559
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack"
 msgstr "Napad"
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
+#: src/cgame/cg_rocket_datasource.cpp:1559
 msgid "The bots attack the enemy base."
 msgstr "Botovi napadaju neprijateljsku bazu."
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "Stay Here"
 msgstr "Ostani ovdje"
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "The bots stay where you are currently."
 msgstr "Botovi ostaju tamo gdje se trenutno nalazite."
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1561
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow"
 msgstr "Prati"
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
+#: src/cgame/cg_rocket_datasource.cpp:1561
 msgid "The bots follow you wherever you go."
 msgstr "Botovi vas prate gdje god da idete."
 
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend our base!!"
 msgstr "Branimo našu bazu!!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack!"
 msgstr "Napad!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow me!"
 msgstr "Prati me!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No."
 msgstr "Br."
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes"
 msgstr "Da"
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes."
 msgstr "Da."
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank"
 msgstr "Bok"
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank, behind you!"
 msgstr "Bok, iza tebe!"
 
@@ -5091,10 +5133,6 @@ msgstr "Ne smijete dekonstruirati ovu strukturu"
 msgid "Building has been disabled on the server for your team."
 msgstr "Izgradnja je onemogućena na serveru za vaš tim."
 
-#: src/cgame/cg_servercmds.cpp:562
-msgid "Building has been disabled for your team"
-msgstr "Izgradnja je onemogućena za vaš tim"
-
 #: src/cgame/cg_servercmds.cpp:566
 msgid "You are no longer permitted to build."
 msgstr "Više vam nije dozvoljeno da gradite."
@@ -5143,24 +5181,12 @@ msgstr ""
 "Nema reaktora. Reaktor mora biti izgrađen prije nego što se može postaviti "
 "bilo koja druga struktura."
 
-#: src/cgame/cg_servercmds.cpp:590
-msgid "There is no reactor"
-msgstr "Nema reaktora"
-
 #: src/cgame/cg_servercmds.cpp:594
 msgid ""
 "There can only be one Reactor. Mark the existing one if you wish to move it."
 msgstr ""
 "Može postojati samo jedan Reaktor. Označite postojeći ako ga želite "
 "premjestiti."
-
-#: src/cgame/cg_servercmds.cpp:596
-msgid "There can only be one Reactor"
-msgstr "Može postojati samo jedan reaktor"
-
-#: src/cgame/cg_servercmds.cpp:601
-msgid "Your team cannot have any more drills"
-msgstr "Vaš tim ne može imati više vježbi"
 
 #: src/cgame/cg_servercmds.cpp:605
 msgid ""
@@ -5260,10 +5286,6 @@ msgstr ""
 "Ne postoji Nadsvijest. Nadsvijest mora biti izgrađena prije nego što se može "
 "postaviti bilo koja druga struktura."
 
-#: src/cgame/cg_servercmds.cpp:663 src/cgame/cg_servercmds.cpp:703
-msgid "There is no Overmind"
-msgstr "Ne postoji Nadsvestan um"
-
 #: src/cgame/cg_servercmds.cpp:667
 msgid ""
 "There can only be one Overmind. Deconstruct the existing one if you wish to "
@@ -5271,14 +5293,6 @@ msgid ""
 msgstr ""
 "Može postojati samo jedan Nadsvestan. Dekonstruišite postojeći ako ga želite "
 "premjestiti."
-
-#: src/cgame/cg_servercmds.cpp:669
-msgid "There can only be one Overmind"
-msgstr "Može postojati samo jedan Nadsvest"
-
-#: src/cgame/cg_servercmds.cpp:674
-msgid "Your team cannot have any more leeches"
-msgstr "Vaš tim ne može imati više pijavica"
 
 #: src/cgame/cg_servercmds.cpp:678
 msgid ""
@@ -5362,11 +5376,6 @@ msgstr "Ne možete se pojaviti kao %s"
 msgid "The %s is not allowed"
 msgstr "%s nije dozvoljeno"
 
-#: src/cgame/cg_servercmds.cpp:743
-#, c-format
-msgid "The %s has not been unlocked yet"
-msgstr "%s još nije otključano"
-
 #: src/cgame/cg_servercmds.cpp:748
 #, c-format
 msgid "cgame: debug: no such menu %d"
@@ -5388,7 +5397,7 @@ msgstr ""
 ">> da biste odgovorili, recite: '/m %d [vaša poruka]' ili '/r [vaša poruka]' "
 "<<"
 
-#: src/cgame/cg_servercmds.cpp:1390
+#: src/cgame/cg_servercmds.cpp:1411
 #, c-format
 msgid "Unknown client game command: %s"
 msgstr "Nepoznata naredba klijentske igre: %s"
@@ -5755,11 +5764,11 @@ msgstr "^1Generisanje navigacijske mreže bota nije uspjelo!"
 msgid "Server: generating bot navigation meshes... $1$%"
 msgstr "Server: generiranje mreža za navigaciju botova... $1$%"
 
-#: src/sgame/sg_buildable.cpp:1702
+#: src/sgame/sg_buildable.cpp:1804
 msgid "$1$ ^2built^* by $2$^*, ^3replacing^* $3$"
 msgstr "$1$ ^2izgrađeno^* od strane $2$^*, ^3zamjenjuje^* $3$"
 
-#: src/sgame/sg_buildable.cpp:1703
+#: src/sgame/sg_buildable.cpp:1805
 msgid "$1$ ^2built^* by $2$$3$"
 msgstr "$1$ ^2izgrađeno^* od strane $2$$3$"
 
@@ -6049,12 +6058,10 @@ msgid "Team vote passed ($1$ — $2$)"
 msgstr "Glasanje tima je prošlo ($1$ — $2$)"
 
 #: src/sgame/sg_votes.cpp:892
-#, c-format
 msgid "Vote failed ($1$ — $2$; $3$% needed)"
 msgstr "Glasanje nije uspjelo ($1$ — $2$; potrebno $3$% n)"
 
 #: src/sgame/sg_votes.cpp:893
-#, c-format
 msgid "Team vote failed ($1$ — $2$; $3$% needed)"
 msgstr "Glasanje tima nije uspjelo ($1$ — $2$; potrebno $3$% n)"
 

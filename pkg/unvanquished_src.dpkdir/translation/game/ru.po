@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 16:59+0200\n"
+"POT-Creation-Date: 2026-09-23 00:39+0100\n"
 "PO-Revision-Date: 2026-06-17 09:01+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/unvanquished/"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Generator: Weblate 2026.7.dev0\n"
 "X-POOTLE-MTIME: 1398357469.0\n"
 
-#: ui/alien_build.rml:126 ui/human_build.rml:127
+#: ui/alien_build.rml:132 ui/human_build.rml:133
 msgid "Build"
 msgstr "Строить"
 
-#: ui/alien_build.rml:133 ui/alien_evo.rml:147 ui/human_build.rml:133
+#: ui/alien_build.rml:139 ui/alien_evo.rml:147 ui/human_build.rml:139
 #: ui/human_buy.rml:217 ui/human_buy.rml:233
 msgid "Price:"
 msgstr "Цена:"
@@ -407,9 +407,9 @@ msgstr "Под атакой"
 #: ui/help_gameplay.rml:118
 msgid ""
 "The [reactor] reactor and the [overmind] overmind will issue warnings to the "
-"team when at 75% health, at 50% health, at 25% health and when destroyed."
-"Destroying other buildings will trigger “under attack” warnings for the "
-"owning team."
+"team when at 75% health, at 50% health, at 25% health and when "
+"destroyed.Destroying other buildings will trigger “under attack” warnings "
+"for the owning team."
 msgstr ""
 "[reactor] Реактор и [overmind] Сверхразум будут предупреждать команду на 75% "
 "здоровья, 50% здоровья, 25% здоровья и когда будут уничтожены. Уничтожение "
@@ -773,6 +773,34 @@ msgstr "Бета"
 msgid "Fields of view"
 msgstr "Поле зрения"
 
+#: ui/options.rml:11
+msgid "Player"
+msgstr "Игрок"
+
+#: ui/options.rml:13 ui/options_movements_cosmetic.rml:7
+msgid "Movement and Cosmetic"
+msgstr "Движение и вид"
+
+#: ui/options.rml:15 ui/options_graphics.rml:20
+msgid "Graphics"
+msgstr "Графика"
+
+#: ui/options.rml:17 ui/options_keys.rml:7
+msgid "Key bindings"
+msgstr "Назначение клавиш"
+
+#: ui/options.rml:19 ui/options_mouse.rml:7
+msgid "Mouse and Aiming"
+msgstr "Мышь и прицеливание"
+
+#: ui/options.rml:21 ui/options_sound.rml:7
+msgid "Sound"
+msgstr "Звук"
+
+#: ui/options.rml:23
+msgid "User interface and HUD"
+msgstr "Интерфейс и HUD"
+
 #: ui/options_bots.rml:10
 msgid "Add an alien bot"
 msgstr "Добавить бота в команду Чужих"
@@ -886,7 +914,7 @@ msgid "Mild"
 msgstr "Лёгкий"
 
 #: ui/options_fov.rml:78 ui/options_fov.rml:89
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -905,10 +933,6 @@ msgstr "Крен камеры"
 #: ui/options_fov.rml:92
 msgid "Twisting movement"
 msgstr "Вращательное движение"
-
-#: ui/options_graphics.rml:20 ui/options.rml:15
-msgid "Graphics"
-msgstr "Графика"
 
 #: ui/options_graphics.rml:23 ui/options_graphics.rml:25 ui/options_keys.rml:12
 #: ui/server_setup.rml:162
@@ -1293,7 +1317,7 @@ msgstr ""
 "влияет на производительность."
 
 #: ui/options_graphics.rml:232 ui/options_ui.rml:30
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No"
 msgstr "Нет"
 
@@ -1602,10 +1626,6 @@ msgstr "Степень размытия движения."
 msgid "Minimum movement speed for motion-blur to activate"
 msgstr "Мин. скорость движения для активации размытия движения"
 
-#: ui/options_keys.rml:7 ui/options.rml:17
-msgid "Key bindings"
-msgstr "Назначение клавиш"
-
 #: ui/options_keys.rml:9
 msgid "Press Escape to cancel changing a key binding."
 msgstr "Нажмите Escape, чтобы отменить изменение назначения клавиши."
@@ -1821,10 +1841,6 @@ msgstr "Обзор мышью:"
 msgid "Centerview:"
 msgstr "Центрировать взгляд:"
 
-#: ui/options_mouse.rml:7 ui/options.rml:19
-msgid "Mouse and Aiming"
-msgstr "Мышь и прицеливание"
-
 #: ui/options_mouse.rml:9
 msgid "Y axis"
 msgstr "Ось Y"
@@ -1868,10 +1884,6 @@ msgstr "Круговой захват мыши в меню"
 #: ui/options_mouse.rml:37
 msgid "Circle menus (excluding Armoury menu) take mouse inputs"
 msgstr "Круговые меню (за исключением меню «Оружия») принимают ввод с мыши"
-
-#: ui/options_movements_cosmetic.rml:7 ui/options.rml:13
-msgid "Movement and Cosmetic"
-msgstr "Движение и вид"
 
 #: ui/options_movements_cosmetic.rml:8
 msgid "Movement"
@@ -2025,18 +2037,6 @@ msgstr "Показывать только командный чат"
 #: ui/options_player.rml:224
 msgid "Show obituaries"
 msgstr "Показывать журнал смертей"
-
-#: ui/options.rml:11
-msgid "Player"
-msgstr "Игрок"
-
-#: ui/options.rml:21 ui/options_sound.rml:7
-msgid "Sound"
-msgstr "Звук"
-
-#: ui/options.rml:23
-msgid "User interface and HUD"
-msgstr "Интерфейс и HUD"
 
 #: ui/options_sound.rml:9
 msgid "Global volume"
@@ -2575,8 +2575,9 @@ msgstr "BP-вампиризм"
 #: ui/server_setup.rml:165
 msgid "Bleed build points from the enemy team by killing buildables."
 msgstr ""
-"Выкачивать очки строительства у вражеской команды, уничтожая постройки."
-"Выкачивать очки строительства у вражеской команды, уничтожая постройки."
+"Выкачивать очки строительства у вражеской команды, уничтожая "
+"постройки.Выкачивать очки строительства у вражеской команды, уничтожая "
+"постройки."
 
 #: ui/server_setup.rml:168
 msgid "Mining"
@@ -4918,74 +4919,118 @@ msgstr "Своё: %dx%d"
 msgid "Same as screen (%dx%d)"
 msgstr "То же, что и у экрана (%dx%d)"
 
-#: src/cgame/cg_rocket_datasource.cpp:1514
+#: src/cgame/cg_rocket_datasource.cpp:1399
+msgid "This buildable is disabled on this server"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:743
+#, c-format
+msgid "The %s has not been unlocked yet"
+msgstr "%s ещё не разблокирован"
+
+#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:562
+msgid "Building has been disabled for your team"
+msgstr "Стройка запрещена для вашей команды"
+
+#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:663
+#: src/cgame/cg_servercmds.cpp:703
+msgid "There is no Overmind"
+msgstr "Отсутствует Сверхразум"
+
+# 76%
+# 100%
+#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:669
+msgid "There can only be one Overmind"
+msgstr "Сверхразум может быть только один"
+
+#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:590
+msgid "There is no reactor"
+msgstr "Нет Реактора"
+
+#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:596
+msgid "There can only be one Reactor"
+msgstr "Может быть только один Реактор"
+
+#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:674
+msgid "Your team cannot have any more leeches"
+msgstr "В вашей команде не может быть больше Личей"
+
+#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:601
+msgid "Your team cannot have any more drills"
+msgstr "У вашей команды не может быть больше буровых установок"
+
+#: src/cgame/cg_rocket_datasource.cpp:1436
+msgid "Not enough build points"
+msgstr ""
+
+#: src/cgame/cg_rocket_datasource.cpp:1557
 msgid "The default behavior. This is what bots do when the game starts."
 msgstr "Поведение по умолчанию. Именно так ведут себя боты при запуске игры."
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1558
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend"
 msgstr "Защищайте"
 
-#: src/cgame/cg_rocket_datasource.cpp:1515
+#: src/cgame/cg_rocket_datasource.cpp:1558
 msgid "The bots stay in the base."
 msgstr "Боты остаются на базе."
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1559
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack"
 msgstr "Атака"
 
-#: src/cgame/cg_rocket_datasource.cpp:1516
+#: src/cgame/cg_rocket_datasource.cpp:1559
 msgid "The bots attack the enemy base."
 msgstr "Боты атакуют вражескую базу."
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "Stay Here"
 msgstr "Стойте тут"
 
-#: src/cgame/cg_rocket_datasource.cpp:1517
+#: src/cgame/cg_rocket_datasource.cpp:1560
 msgid "The bots stay where you are currently."
 msgstr "Боты остаются там, где вы находитесь в данный момент."
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1561
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow"
 msgstr "Следовать"
 
-#: src/cgame/cg_rocket_datasource.cpp:1518
+#: src/cgame/cg_rocket_datasource.cpp:1561
 msgid "The bots follow you wherever you go."
 msgstr "Боты следуют за вами, куда бы вы ни пошли."
 
-#: src/cgame/cg_rocket_datasource.cpp:1548
+#: src/cgame/cg_rocket_datasource.cpp:1591
 msgid "Defend our base!!"
 msgstr "Защищайте нашу базу!!!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1549
+#: src/cgame/cg_rocket_datasource.cpp:1592
 msgid "Attack!"
 msgstr "Атакуем!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1550
+#: src/cgame/cg_rocket_datasource.cpp:1593
 msgid "Follow me!"
 msgstr "Следуйте за мной!"
 
-#: src/cgame/cg_rocket_datasource.cpp:1551
+#: src/cgame/cg_rocket_datasource.cpp:1594
 msgid "No."
 msgstr "Нет."
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes"
 msgstr "Да"
 
-#: src/cgame/cg_rocket_datasource.cpp:1552
+#: src/cgame/cg_rocket_datasource.cpp:1595
 msgid "Yes."
 msgstr "Да."
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank"
 msgstr "Фланг"
 
-#: src/cgame/cg_rocket_datasource.cpp:1553
+#: src/cgame/cg_rocket_datasource.cpp:1596
 msgid "Flank, behind you!"
 msgstr "Фланг, сзади!"
 
@@ -5200,10 +5245,6 @@ msgstr "Вы не можете убрать эту постройку"
 msgid "Building has been disabled on the server for your team."
 msgstr "Стройка запрещена для вашей команды."
 
-#: src/cgame/cg_servercmds.cpp:562
-msgid "Building has been disabled for your team"
-msgstr "Стройка запрещена для вашей команды"
-
 #: src/cgame/cg_servercmds.cpp:566
 msgid "You are no longer permitted to build."
 msgstr "Вам больше не разрешено строить."
@@ -5252,24 +5293,12 @@ msgstr ""
 "На карте нет Реактора. Реактор должен быть построен прежде, чем будет "
 "возможно разместить какие-либо другие структуры."
 
-#: src/cgame/cg_servercmds.cpp:590
-msgid "There is no reactor"
-msgstr "Нет Реактора"
-
 #: src/cgame/cg_servercmds.cpp:594
 msgid ""
 "There can only be one Reactor. Mark the existing one if you wish to move it."
 msgstr ""
 "Реактор может быть только один. Поставить отметку на существующем чтобы "
 "переместить его."
-
-#: src/cgame/cg_servercmds.cpp:596
-msgid "There can only be one Reactor"
-msgstr "Может быть только один Реактор"
-
-#: src/cgame/cg_servercmds.cpp:601
-msgid "Your team cannot have any more drills"
-msgstr "У вашей команды не может быть больше буровых установок"
 
 #: src/cgame/cg_servercmds.cpp:605
 msgid ""
@@ -5367,10 +5396,6 @@ msgstr ""
 "На карте нет Сверхразума. Сверхразум должен быть построен прежде, чем будет "
 "возможно разместить какие-либо другие структуры."
 
-#: src/cgame/cg_servercmds.cpp:663 src/cgame/cg_servercmds.cpp:703
-msgid "There is no Overmind"
-msgstr "Отсутствует Сверхразум"
-
 #: src/cgame/cg_servercmds.cpp:667
 msgid ""
 "There can only be one Overmind. Deconstruct the existing one if you wish to "
@@ -5378,16 +5403,6 @@ msgid ""
 msgstr ""
 "Может существовать только один Сверхразум. Разберите существующий, если "
 "хотите перенести его сюда."
-
-# 76%
-# 100%
-#: src/cgame/cg_servercmds.cpp:669
-msgid "There can only be one Overmind"
-msgstr "Сверхразум может быть только один"
-
-#: src/cgame/cg_servercmds.cpp:674
-msgid "Your team cannot have any more leeches"
-msgstr "В вашей команде не может быть больше Личей"
 
 #: src/cgame/cg_servercmds.cpp:678
 msgid ""
@@ -5469,11 +5484,6 @@ msgstr "Вы не можете возродиться как %s"
 msgid "The %s is not allowed"
 msgstr "%s не допускается"
 
-#: src/cgame/cg_servercmds.cpp:743
-#, c-format
-msgid "The %s has not been unlocked yet"
-msgstr "%s ещё не разблокирован"
-
 #: src/cgame/cg_servercmds.cpp:748
 #, c-format
 msgid "cgame: debug: no such menu %d"
@@ -5494,7 +5504,7 @@ msgid ">> to reply, say: '/m %d [your message]' or '/r [your message]' <<"
 msgstr ""
 ">> для ответа напишите: «/m %d [ваше сообщение]» или «/r [ваше сообщение]» <<"
 
-#: src/cgame/cg_servercmds.cpp:1390
+#: src/cgame/cg_servercmds.cpp:1411
 #, c-format
 msgid "Unknown client game command: %s"
 msgstr "Неизвестная команда клиента игры: %s"
@@ -5861,11 +5871,11 @@ msgstr "^1Ошибка генерации навигационной сети б
 msgid "Server: generating bot navigation meshes... $1$%"
 msgstr "Сервер: генерация навигационной сети для ботов... $1$%"
 
-#: src/sgame/sg_buildable.cpp:1702
+#: src/sgame/sg_buildable.cpp:1804
 msgid "$1$ ^2built^* by $2$^*, ^3replacing^* $3$"
 msgstr "$1$ ^2построен^* $2$^*, ^3заменив^* $3$"
 
-#: src/sgame/sg_buildable.cpp:1703
+#: src/sgame/sg_buildable.cpp:1805
 msgid "$1$ ^2built^* by $2$$3$"
 msgstr "$1$ ^2построен^* $2$$3$"
 
@@ -6159,12 +6169,12 @@ msgid "Team vote passed ($1$ — $2$)"
 msgstr "Командное голосование прошло ($1$ — $2$)"
 
 #: src/sgame/sg_votes.cpp:892
-#, c-format
+#, fuzzy
 msgid "Vote failed ($1$ — $2$; $3$% needed)"
 msgstr "Голосование не удалось ($1$ — $2$; требуется $3$%)"
 
 #: src/sgame/sg_votes.cpp:893
-#, c-format
+#, fuzzy
 msgid "Team vote failed ($1$ — $2$; $3$% needed)"
 msgstr "Командное голосование не удалось ($1$ — $2$; требуется $3$%)"
 
@@ -8534,9 +8544,9 @@ msgstr "люди"
 #~ "duration will be extended or shortened by the specified amount"
 #~ msgstr ""
 #~ "измените маску IP-адреса, продолжительность или причину бана.  маска "
-#~ "должна начинаться с '/'.  продолжительность определяется в единицах "
-#~ "'w' (недели), 'd' (дни), 'h' (часы) или 'm' (минуты), или секунды, если "
-#~ "не единицы не заданы.  если перед числом стоит + или -, продолжительность "
+#~ "должна начинаться с '/'.  продолжительность определяется в единицах 'w' "
+#~ "(недели), 'd' (дни), 'h' (часы) или 'm' (минуты), или секунды, если не "
+#~ "единицы не заданы.  если перед числом стоит + или -, продолжительность "
 #~ "бана будет увеличена или уменьшена на указанное число"
 
 #~ msgid "[^3ban#^7] (^5/mask^7) (^5duration^7) (^5reason^7)"
@@ -8570,9 +8580,8 @@ msgstr "люди"
 #~ "specified"
 #~ msgstr ""
 #~ "забанить игрока по IP-адресу и GUID с опциональным указанием срока и "
-#~ "причины. Продолжительность определяется в единицах 'w' (недели), "
-#~ "'d' (дни), 'h' (часы) или 'm' (минуты), или секунды, если не единицы не "
-#~ "заданы"
+#~ "причины. Продолжительность определяется в единицах 'w' (недели), 'd' "
+#~ "(дни), 'h' (часы) или 'm' (минуты), или секунды, если не единицы не заданы"
 
 #~ msgid "[^3name|slot#|IP(/mask)^7] (^5duration^7) (^5reason^7)"
 #~ msgstr "[^3имя|номер слота|IP(/маска)^7] (^5длительность^7) (^5причина^7)"
