@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 00:39+0100\n"
+"POT-Creation-Date: 2026-09-23 02:03+0100\n"
 "PO-Revision-Date: 2025-10-10 13:07+0000\n"
 "Last-Translator: SecularSteve <fairfull.playing@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/unvanquished/"
@@ -587,9 +587,13 @@ msgstr "ms"
 msgid "build points"
 msgstr "bouwpunten"
 
-#: ui/hud_human.rml:268
+#: ui/hud_human.rml:279
 msgid "Credits"
 msgstr "Aftiteling"
+
+#: ui/hud_human.rml:299
+msgid "Press '<keybind cmd=\"+activate\" team=\"humans\" />' to interact"
+msgstr ""
 
 #: ui/human_buy.rml:209 ui/options_player.rml:77
 msgid "Weapons"
