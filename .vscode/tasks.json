@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"label": "Generate translations",
+			"command": "C:\\Program Files\\Git\\bin\\bash.exe",
+			"args": [
+				"-c",
+				"tools/translation/generate.sh"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}",
+			},
+		},
+		{
+			"type": "process",
+			"label": "Build game logic (MinGW)",
+			"command": "C:\\msys64\\usr\\bin\\make.exe",
+			"args": [
+				"cgame-native-dll",
+				"sgame-native-dll"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}\\build",
+				"env": {
+					"PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}"
+				}
+			},
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"label": "Build all",
+    		"dependsOrder": "sequence",
+			"dependsOn": [
+				"Generate translations",
+				"Build game logic (MinGW)"
+			],
+		}
+	]
+}

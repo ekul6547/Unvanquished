@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "name": "Run Unvanquished (source assets)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\build\\daemon.exe",
+      "args": [
+        "-noforward",
+        "-pakpath",
+        "${workspaceFolder}\\build\\pkg",
+        "-pakpath",
+        "${workspaceFolder}\\pkg",
+        "-homepath",
+        "${workspaceFolder}\\build\\dev-home",
+        "-set",
+        "fs_basepak",
+        "unvanquished_src",
+        "-set",
+        "vm.sgame.type",
+        "3",
+        "-set",
+        "vm.cgame.type",
+        "3"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}\\build",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "${workspaceFolder}\\build;C:\\msys64\\mingw64\\bin;${env:PATH}"
+        }
+      ],
+      "MIMode": "gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Build all",
+      "miDebuggerPath": "c:\\msys64\\mingw64\\bin\\gdb.exe"
+    }
+  ]
+}

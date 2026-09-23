@@ -66,3 +66,5 @@ external_deps/*
 #never ignore these in subdirectories by accident
 !.gitattributes
 !.gitignore
+/.vscode
+/AGENTS.md
