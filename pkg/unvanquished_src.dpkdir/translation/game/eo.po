@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 02:03+0100\n"
+"POT-Creation-Date: 2026-09-23 23:16+0100\n"
 "PO-Revision-Date: 2025-03-17 15:16+0000\n"
 "Last-Translator: Couvez <ccouvez@free.fr>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/unvanquished/"
@@ -496,12 +496,8 @@ msgstr ""
 msgid "build points"
 msgstr ""
 
-#: ui/hud_human.rml:279
+#: ui/hud_human.rml:276
 msgid "Credits"
-msgstr ""
-
-#: ui/hud_human.rml:299
-msgid "Press '<keybind cmd=\"+activate\" team=\"humans\" />' to interact"
 msgstr ""
 
 #: ui/human_buy.rml:209 ui/options_player.rml:77

@@ -211,26 +211,20 @@
 				width: 16em;
 				position: absolute;
 				bottom: 20%;
-				color: #aaffffff;
 				margin-left: auto;
 				margin-right: auto;
+				text-align: center;
 			}
 
 			usable_buildable img {
-				display: block;
+				display: inline;
 				width: 1.5em;
 				height: 1.5em;
-				margin-left: auto;
-				margin-right: auto;
 			}
 
-			usable_buildable div#use_tip {
-				display: block;
-				font-size: 0.5em;
-				text-align: center;
-				white-space: nowrap;
-				margin-left: auto;
-				margin-right: auto;
+			usable_buildable keybind {
+				display: inline;
+				margin-top: 0.5em;
 			}
 
 			inventory {
@@ -294,10 +288,8 @@
 		</div>
 		<div id="items">
 			<usable_buildable>
-				<img src="/ui/assets/neutral/use" />
-				<div id="use_tip">
-					<translate>Press '<keybind cmd="+activate" team="humans" />' to interact</translate>
-				</div>
+				<img src="/ui/assets/neutral/use" /><br />
+				<keybind class="keycap" cmd="+activate" team="humans" />
 			</usable_buildable>
 			<inventory />
 		</div>
