@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 23:16+0100\n"
+"POT-Creation-Date: 2026-09-25 17:11+0100\n"
 "PO-Revision-Date: 2025-10-10 13:07+0000\n"
 "Last-Translator: SecularSteve <fairfull.playing@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/unvanquished/"
@@ -587,7 +587,7 @@ msgstr "ms"
 msgid "build points"
 msgstr "bouwpunten"
 
-#: ui/hud_human.rml:276
+#: ui/hud_human.rml:288
 msgid "Credits"
 msgstr "Aftiteling"
 
@@ -4953,61 +4953,61 @@ msgstr "Flank"
 msgid "Flank, behind you!"
 msgstr "Flank, achter je!"
 
-#: src/cgame/cg_rocket_draw.cpp:2630
+#: src/cgame/cg_rocket_draw.cpp:2657
 msgid "You are at the front of the spawn queue"
 msgstr "Je staat vooraan in de spawn wachtrij"
 
-#: src/cgame/cg_rocket_draw.cpp:2634
+#: src/cgame/cg_rocket_draw.cpp:2661
 #, c-format
 msgid "You are at position %d in the spawn queue"
 msgstr "Je bent op positie %d in de spawn wachtrij"
 
-#: src/cgame/cg_rocket_draw.cpp:2674
+#: src/cgame/cg_rocket_draw.cpp:2701
 msgid "There are no spawns remaining"
 msgstr "Er zijn geen spawns meer"
 
-#: src/cgame/cg_rocket_draw.cpp:2678
+#: src/cgame/cg_rocket_draw.cpp:2705
 #, c-format
 msgid "There is %d spawn remaining"
 msgid_plural "There are %d spawns remaining"
 msgstr[0] "Er is %d spawn over"
 msgstr[1] "Er zijn %d spawns over"
 
-#: src/cgame/cg_rocket_draw.cpp:3227
+#: src/cgame/cg_rocket_draw.cpp:3254
 #, c-format
 msgid "Awaiting connection…%i"
 msgstr "In afwachting van verbinding...%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3231
+#: src/cgame/cg_rocket_draw.cpp:3258
 #, c-format
 msgid "Awaiting challenge…%i"
 msgstr "In afwachting van uitdaging...%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3235
+#: src/cgame/cg_rocket_draw.cpp:3262
 msgid "Awaiting gamestate…"
 msgstr "In afwachting van gamestate…"
 
-#: src/cgame/cg_rocket_draw.cpp:3336
+#: src/cgame/cg_rocket_draw.cpp:3363
 msgid "Say:"
 msgstr "Zeg:"
 
-#: src/cgame/cg_rocket_draw.cpp:3337
+#: src/cgame/cg_rocket_draw.cpp:3364
 msgid "Team Say:"
 msgstr "Ploeg Zeggen:"
 
-#: src/cgame/cg_rocket_draw.cpp:3338
+#: src/cgame/cg_rocket_draw.cpp:3365
 msgid "Admin Say:"
 msgstr "Admin zegt:"
 
-#: src/cgame/cg_rocket_draw.cpp:3339
+#: src/cgame/cg_rocket_draw.cpp:3366
 msgid "Command:"
 msgstr "Commando:"
 
-#: src/cgame/cg_rocket_draw.cpp:3689
+#: src/cgame/cg_rocket_draw.cpp:3716
 msgid "FIGHT!"
 msgstr "VECHTEN!"
 
-#: src/cgame/cg_rocket_draw.cpp:3783
+#: src/cgame/cg_rocket_draw.cpp:3810
 msgid "estimating"
 msgstr "schatting"
 

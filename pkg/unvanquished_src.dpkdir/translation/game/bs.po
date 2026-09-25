@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 23:16+0100\n"
+"POT-Creation-Date: 2026-09-25 17:11+0100\n"
 "PO-Revision-Date: 2025-10-10 13:07+0000\n"
 "Last-Translator: SecularSteve <fairfull.playing@gmail.com>\n"
 "Language-Team: Bosnian <https://hosted.weblate.org/projects/unvanquished/"
@@ -586,7 +586,7 @@ msgstr "ms"
 msgid "build points"
 msgstr "bodovi za izgradnju"
 
-#: ui/hud_human.rml:276
+#: ui/hud_human.rml:288
 msgid "Credits"
 msgstr "Zasluge"
 
@@ -4922,20 +4922,20 @@ msgstr "Bok"
 msgid "Flank, behind you!"
 msgstr "Bok, iza tebe!"
 
-#: src/cgame/cg_rocket_draw.cpp:2630
+#: src/cgame/cg_rocket_draw.cpp:2657
 msgid "You are at the front of the spawn queue"
 msgstr "Nalazite se na početku reda za pojavljivanje"
 
-#: src/cgame/cg_rocket_draw.cpp:2634
+#: src/cgame/cg_rocket_draw.cpp:2661
 #, c-format
 msgid "You are at position %d in the spawn queue"
 msgstr "Nalazite se na poziciji %d u redu čekanja za pojavljivanje"
 
-#: src/cgame/cg_rocket_draw.cpp:2674
+#: src/cgame/cg_rocket_draw.cpp:2701
 msgid "There are no spawns remaining"
 msgstr "Nema preostalih mrijestilišta"
 
-#: src/cgame/cg_rocket_draw.cpp:2678
+#: src/cgame/cg_rocket_draw.cpp:2705
 #, c-format
 msgid "There is %d spawn remaining"
 msgid_plural "There are %d spawns remaining"
@@ -4943,41 +4943,41 @@ msgstr[0] "Preostalo je %d mjesto mrijesta"
 msgstr[1] "Preostala su %d mjesta mrijesta"
 msgstr[2] "Preostalo je %d mjesta mrijesta"
 
-#: src/cgame/cg_rocket_draw.cpp:3227
+#: src/cgame/cg_rocket_draw.cpp:3254
 #, c-format
 msgid "Awaiting connection…%i"
 msgstr "Čekanje veze…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3231
+#: src/cgame/cg_rocket_draw.cpp:3258
 #, c-format
 msgid "Awaiting challenge…%i"
 msgstr "Čeka se izazov…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3235
+#: src/cgame/cg_rocket_draw.cpp:3262
 msgid "Awaiting gamestate…"
 msgstr "Čekanje stanja igre…"
 
-#: src/cgame/cg_rocket_draw.cpp:3336
+#: src/cgame/cg_rocket_draw.cpp:3363
 msgid "Say:"
 msgstr "Reci:"
 
-#: src/cgame/cg_rocket_draw.cpp:3337
+#: src/cgame/cg_rocket_draw.cpp:3364
 msgid "Team Say:"
 msgstr "Tim kaže:"
 
-#: src/cgame/cg_rocket_draw.cpp:3338
+#: src/cgame/cg_rocket_draw.cpp:3365
 msgid "Admin Say:"
 msgstr "Administrator kaže:"
 
-#: src/cgame/cg_rocket_draw.cpp:3339
+#: src/cgame/cg_rocket_draw.cpp:3366
 msgid "Command:"
 msgstr "Naredba:"
 
-#: src/cgame/cg_rocket_draw.cpp:3689
+#: src/cgame/cg_rocket_draw.cpp:3716
 msgid "FIGHT!"
 msgstr "BORBA!"
 
-#: src/cgame/cg_rocket_draw.cpp:3783
+#: src/cgame/cg_rocket_draw.cpp:3810
 msgid "estimating"
 msgstr "procjena"
 

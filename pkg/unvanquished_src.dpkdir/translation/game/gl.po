@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 23:16+0100\n"
+"POT-Creation-Date: 2026-09-25 17:11+0100\n"
 "PO-Revision-Date: 2023-06-23 01:47+0000\n"
 "Last-Translator: memespider <crucisdeus@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/unvanquished/"
@@ -479,7 +479,7 @@ msgstr ""
 msgid "build points"
 msgstr "puntos de construción"
 
-#: ui/hud_human.rml:276
+#: ui/hud_human.rml:288
 msgid "Credits"
 msgstr "Autores"
 
@@ -4712,61 +4712,61 @@ msgstr ""
 msgid "Flank, behind you!"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:2630
+#: src/cgame/cg_rocket_draw.cpp:2657
 msgid "You are at the front of the spawn queue"
 msgstr "Estás no primeiro posto da cola de rexeneración"
 
-#: src/cgame/cg_rocket_draw.cpp:2634
+#: src/cgame/cg_rocket_draw.cpp:2661
 #, c-format
 msgid "You are at position %d in the spawn queue"
 msgstr "Estás no posto %d da cola de rexeneración"
 
-#: src/cgame/cg_rocket_draw.cpp:2674
+#: src/cgame/cg_rocket_draw.cpp:2701
 msgid "There are no spawns remaining"
 msgstr "Non quedan rexeneracións"
 
-#: src/cgame/cg_rocket_draw.cpp:2678
+#: src/cgame/cg_rocket_draw.cpp:2705
 #, c-format
 msgid "There is %d spawn remaining"
 msgid_plural "There are %d spawns remaining"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/cgame/cg_rocket_draw.cpp:3227
+#: src/cgame/cg_rocket_draw.cpp:3254
 #, c-format
 msgid "Awaiting connection…%i"
 msgstr "Agardando pola conexión…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3231
+#: src/cgame/cg_rocket_draw.cpp:3258
 #, c-format
 msgid "Awaiting challenge…%i"
 msgstr "Agardando polo desafío…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3235
+#: src/cgame/cg_rocket_draw.cpp:3262
 msgid "Awaiting gamestate…"
 msgstr "Agardando polo estado da partida…"
 
-#: src/cgame/cg_rocket_draw.cpp:3336
+#: src/cgame/cg_rocket_draw.cpp:3363
 msgid "Say:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3337
+#: src/cgame/cg_rocket_draw.cpp:3364
 msgid "Team Say:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3338
+#: src/cgame/cg_rocket_draw.cpp:3365
 msgid "Admin Say:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3339
+#: src/cgame/cg_rocket_draw.cpp:3366
 msgid "Command:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3689
+#: src/cgame/cg_rocket_draw.cpp:3716
 msgid "FIGHT!"
 msgstr "Dálle!"
 
-#: src/cgame/cg_rocket_draw.cpp:3783
+#: src/cgame/cg_rocket_draw.cpp:3810
 msgid "estimating"
 msgstr "estimando"
 

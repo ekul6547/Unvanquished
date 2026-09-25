@@ -1191,6 +1191,33 @@ private:
 	bool isNoAmmo_;
 };
 
+class MedkitElement : public HudElement
+{
+public:
+	MedkitElement(const Rml::String &tag) :
+			HudElement(tag, ELEMENT_HUMANS),
+			isShown_(false)
+	{}
+
+	void DoOnUpdate() override
+	{
+		const playerState_t &ps = cg.snap->ps;
+		const bool shouldShow = ps.stats[STAT_HEALTH] > 0
+			&& ps.stats[STAT_HEALTH] < BG_Class(ps.stats[STAT_CLASS])->health
+			&& BG_InventoryContainsUpgrade(UP_MEDKIT, ps.stats);
+
+		if (shouldShow != isShown_)
+		{
+			isShown_ = shouldShow;
+			SetInnerRML(va("<img src='/$handle/%d' /><keybind class='keycap flashing' cmd='itemact medkit' team='humans' />", cg_upgrades[UP_MEDKIT].upgradeIcon));
+			SetProperty(Rml::PropertyId::Display, Rml::Property(shouldShow ? Rml::Style::Display::Block : Rml::Style::Display::None));
+		}
+	}
+
+private:
+	bool isShown_;
+};
+
 class WallwalkElement : public HudElement
 {
 public:
@@ -3936,6 +3963,7 @@ void CG_Rocket_RegisterElements()
 	RegisterElement<CreditsValueElement>( "credits" );
 	RegisterElement<EvosValueElement>( "evos" );
 	RegisterElement<WeaponIconElement>( "weapon_icon" );
+	RegisterElement<MedkitElement>("medkit");
 	RegisterElement<WallwalkElement>( "wallwalk" );
 	RegisterElement<StaminaElement>( "stamina" );
 	RegisterElement<UsableBuildableElement>( "usable_buildable" );

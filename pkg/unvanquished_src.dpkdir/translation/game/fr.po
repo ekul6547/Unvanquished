@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 23:16+0100\n"
+"POT-Creation-Date: 2026-09-25 17:11+0100\n"
 "PO-Revision-Date: 2026-06-15 23:08+0000\n"
 "Last-Translator: Thomas Debesse <dev@illwieckz.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/unvanquished/"
@@ -599,7 +599,7 @@ msgstr "ms"
 msgid "build points"
 msgstr "pts de constr"
 
-#: ui/hud_human.rml:276
+#: ui/hud_human.rml:288
 msgid "Credits"
 msgstr "Crédits"
 
@@ -5113,62 +5113,62 @@ msgstr "Flanquer"
 msgid "Flank, behind you!"
 msgstr "Flanquez, derrière vous !"
 
-#: src/cgame/cg_rocket_draw.cpp:2630
+#: src/cgame/cg_rocket_draw.cpp:2657
 msgid "You are at the front of the spawn queue"
 msgstr "Vous êtes en tête de la file d’attente pour réapparaître"
 
 # Should be singular.
-#: src/cgame/cg_rocket_draw.cpp:2634
+#: src/cgame/cg_rocket_draw.cpp:2661
 #, c-format
 msgid "You are at position %d in the spawn queue"
 msgstr "Vous êtes en position %d de la file de réapparition"
 
-#: src/cgame/cg_rocket_draw.cpp:2674
+#: src/cgame/cg_rocket_draw.cpp:2701
 msgid "There are no spawns remaining"
 msgstr "Il ne reste aucun point de réapparition"
 
-#: src/cgame/cg_rocket_draw.cpp:2678
+#: src/cgame/cg_rocket_draw.cpp:2705
 #, c-format
 msgid "There is %d spawn remaining"
 msgid_plural "There are %d spawns remaining"
 msgstr[0] "Il reste %d point d'apparition"
 msgstr[1] "Il reste %d points d'apparition"
 
-#: src/cgame/cg_rocket_draw.cpp:3227
+#: src/cgame/cg_rocket_draw.cpp:3254
 #, c-format
 msgid "Awaiting connection…%i"
 msgstr "En attente de connexion…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3231
+#: src/cgame/cg_rocket_draw.cpp:3258
 #, c-format
 msgid "Awaiting challenge…%i"
 msgstr "En attente de l’épreuve de test…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3235
+#: src/cgame/cg_rocket_draw.cpp:3262
 msgid "Awaiting gamestate…"
 msgstr "En attente de l’état de la partie…"
 
-#: src/cgame/cg_rocket_draw.cpp:3336
+#: src/cgame/cg_rocket_draw.cpp:3363
 msgid "Say:"
 msgstr "Dire :"
 
-#: src/cgame/cg_rocket_draw.cpp:3337
+#: src/cgame/cg_rocket_draw.cpp:3364
 msgid "Team Say:"
 msgstr "Dire à l’équipe :"
 
-#: src/cgame/cg_rocket_draw.cpp:3338
+#: src/cgame/cg_rocket_draw.cpp:3365
 msgid "Admin Say:"
 msgstr "Dire à l’adiminstrateur :"
 
-#: src/cgame/cg_rocket_draw.cpp:3339
+#: src/cgame/cg_rocket_draw.cpp:3366
 msgid "Command:"
 msgstr "Commande :"
 
-#: src/cgame/cg_rocket_draw.cpp:3689
+#: src/cgame/cg_rocket_draw.cpp:3716
 msgid "FIGHT!"
 msgstr "À L’ATTAQUE !"
 
-#: src/cgame/cg_rocket_draw.cpp:3783
+#: src/cgame/cg_rocket_draw.cpp:3810
 msgid "estimating"
 msgstr "estimation"
 
