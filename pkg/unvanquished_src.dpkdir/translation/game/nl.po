@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 17:11+0100\n"
+"POT-Creation-Date: 2026-09-25 17:47+0100\n"
 "PO-Revision-Date: 2025-10-10 13:07+0000\n"
 "Last-Translator: SecularSteve <fairfull.playing@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/unvanquished/"
@@ -582,10 +582,6 @@ msgstr "fps"
 #: ui/hud_basics.rml:206
 msgid "ms"
 msgstr "ms"
-
-#: ui/hud_bp.rml:29
-msgid "build points"
-msgstr "bouwpunten"
 
 #: ui/hud_human.rml:288
 msgid "Credits"
@@ -6119,6 +6115,9 @@ msgstr "buitenaardse wezens"
 #: src/shared/bg_misc.cpp:2517
 msgid "humans"
 msgstr "mensen"
+
+#~ msgid "build points"
+#~ msgstr "bouwpunten"
 
 #~ msgid ""
 #~ "Ugly method for increasing brightness. (Consider resetting and using tone "

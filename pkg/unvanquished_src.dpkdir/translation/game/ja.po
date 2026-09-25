@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 17:11+0100\n"
+"POT-Creation-Date: 2026-09-25 17:47+0100\n"
 "PO-Revision-Date: 2025-05-22 16:13+0000\n"
 "Last-Translator: Jimmy Dahlberg <jimmydaswag@hotmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/unvanquished/"
@@ -483,10 +483,6 @@ msgstr "フレームレート"
 #: ui/hud_basics.rml:206
 msgid "ms"
 msgstr "ms"
-
-#: ui/hud_bp.rml:29
-msgid "build points"
-msgstr "ビルドポイント"
 
 #: ui/hud_human.rml:288
 msgid "Credits"
@@ -5826,3 +5822,6 @@ msgstr ""
 #: src/shared/bg_misc.cpp:2517
 msgid "humans"
 msgstr ""
+
+#~ msgid "build points"
+#~ msgstr "ビルドポイント"

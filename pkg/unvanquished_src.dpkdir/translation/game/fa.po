@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 17:11+0100\n"
+"POT-Creation-Date: 2026-09-25 17:47+0100\n"
 "PO-Revision-Date: 2024-12-03 04:32+0000\n"
 "Last-Translator: AliIR <ali_nacoli@proton.me>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/unvanquished/"
@@ -478,10 +478,6 @@ msgstr "تصویر بر ثانیه"
 #: ui/hud_basics.rml:206
 msgid "ms"
 msgstr "میلی‌ثانیه"
-
-#: ui/hud_bp.rml:29
-msgid "build points"
-msgstr ""
 
 #: ui/hud_human.rml:288
 msgid "Credits"

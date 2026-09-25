@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 17:11+0100\n"
+"POT-Creation-Date: 2026-09-25 17:47+0100\n"
 "PO-Revision-Date: 2024-10-26 08:37+0000\n"
 "Last-Translator: NaitLee <naitli@foxmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
@@ -525,10 +525,6 @@ msgstr "fps"
 #: ui/hud_basics.rml:206
 msgid "ms"
 msgstr "ms"
-
-#: ui/hud_bp.rml:29
-msgid "build points"
-msgstr "建築點"
 
 #: ui/hud_human.rml:288
 msgid "Credits"
@@ -5890,6 +5886,9 @@ msgstr "異形"
 #: src/shared/bg_misc.cpp:2517
 msgid "humans"
 msgstr "人類"
+
+#~ msgid "build points"
+#~ msgstr "建築點"
 
 #~ msgid "Gamma:"
 #~ msgstr "伽瑪值:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 17:11+0100\n"
+"POT-Creation-Date: 2026-09-25 17:47+0100\n"
 "PO-Revision-Date: 2024-10-22 18:57+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/unvanquished/"
@@ -474,10 +474,6 @@ msgstr "კადრი/წმ"
 #: ui/hud_basics.rml:206
 msgid "ms"
 msgstr "მწმ"
-
-#: ui/hud_bp.rml:29
-msgid "build points"
-msgstr ""
 
 #: ui/hud_human.rml:288
 msgid "Credits"

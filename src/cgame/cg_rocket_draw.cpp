@@ -364,11 +364,11 @@ private:
 
 };
 
-class AmmoHudElement : public TextHudElement
+class AmmoHudElement : public HudElement
 {
 public:
 	AmmoHudElement( const Rml::String& tag ) :
-			TextHudElement( tag, ELEMENT_BOTH ),
+			HudElement( tag, ELEMENT_BOTH ),
 			showTotalAmmo_( false ),
 			builder_( false ),
 			ammo_( 0 ),
@@ -379,7 +379,7 @@ public:
 
 	void OnAttributeChange( const Rml::ElementAttributes& changed_attributes ) override
 	{
-		TextHudElement::OnAttributeChange( changed_attributes );
+		HudElement::OnAttributeChange( changed_attributes );
 		if ( changed_attributes.find( "type" ) != changed_attributes.end() )
 		{
 			const Rml::String& type = GetAttribute<Rml::String>( "type", "" );
@@ -452,16 +452,16 @@ public:
 
 			if ( markedBudget_ != 0 )
 			{
-				SetText( va( "%d+%d = %d", freeBudget, markedBudget_, available ) );
+				SetInnerRML(va("%d+%d = %d&nbsp;<translate>build points</translate>", freeBudget, markedBudget_, available));
 			}
 			else
 			{
-				SetText( va( "%d", freeBudget ) );
+				SetInnerRML(va("%d&nbsp;<translate>build points</translate>", freeBudget));
 			}
 		}
 		else
 		{
-			SetText( va( "%d", ammo_ ) );
+			SetInnerRML(va("%d", ammo_));
 		}
 	}
 

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 17:11+0100\n"
+"POT-Creation-Date: 2026-09-25 17:47+0100\n"
 "PO-Revision-Date: 2026-06-17 09:01+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/unvanquished/"
@@ -581,10 +581,6 @@ msgstr "к/с"
 #: ui/hud_basics.rml:206
 msgid "ms"
 msgstr "мс"
-
-#: ui/hud_bp.rml:29
-msgid "build points"
-msgstr "Очки построек"
 
 #: ui/hud_human.rml:288
 msgid "Credits"
@@ -6201,6 +6197,9 @@ msgstr "пришельцы"
 #: src/shared/bg_misc.cpp:2517
 msgid "humans"
 msgstr "люди"
+
+#~ msgid "build points"
+#~ msgstr "Очки построек"
 
 #~ msgid ""
 #~ "Ugly method for increasing brightness. (Consider resetting and using tone "
