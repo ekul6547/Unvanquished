@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 17:47+0100\n"
+"POT-Creation-Date: 2026-09-25 20:21+0100\n"
 "PO-Revision-Date: 2025-01-06 20:30+0000\n"
 "Last-Translator: Grise <Grise@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Breton <https://hosted.weblate.org/projects/unvanquished/"
@@ -4757,61 +4757,61 @@ msgstr ""
 msgid "Flank, behind you!"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:2657
+#: src/cgame/cg_rocket_draw.cpp:2677
 msgid "You are at the front of the spawn queue"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:2661
+#: src/cgame/cg_rocket_draw.cpp:2681
 #, c-format
 msgid "You are at position %d in the spawn queue"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:2701
+#: src/cgame/cg_rocket_draw.cpp:2721
 msgid "There are no spawns remaining"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:2705
+#: src/cgame/cg_rocket_draw.cpp:2725
 #, c-format
 msgid "There is %d spawn remaining"
 msgid_plural "There are %d spawns remaining"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/cgame/cg_rocket_draw.cpp:3254
+#: src/cgame/cg_rocket_draw.cpp:3300
 #, c-format
 msgid "Awaiting connection…%i"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3258
+#: src/cgame/cg_rocket_draw.cpp:3304
 #, c-format
 msgid "Awaiting challenge…%i"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3262
+#: src/cgame/cg_rocket_draw.cpp:3308
 msgid "Awaiting gamestate…"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3363
+#: src/cgame/cg_rocket_draw.cpp:3409
 msgid "Say:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3364
+#: src/cgame/cg_rocket_draw.cpp:3410
 msgid "Team Say:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3365
+#: src/cgame/cg_rocket_draw.cpp:3411
 msgid "Admin Say:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3366
+#: src/cgame/cg_rocket_draw.cpp:3412
 msgid "Command:"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3716
+#: src/cgame/cg_rocket_draw.cpp:3762
 msgid "FIGHT!"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:3810
+#: src/cgame/cg_rocket_draw.cpp:3856
 msgid "estimating"
 msgstr ""
 

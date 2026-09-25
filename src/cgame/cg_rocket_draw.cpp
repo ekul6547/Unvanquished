@@ -371,6 +371,7 @@ public:
 			HudElement( tag, ELEMENT_BOTH ),
 			showTotalAmmo_( false ),
 			builder_( false ),
+			showingInfiniteAmmo_( false ),
 			ammo_( 0 ),
 			spentBudget_( 0 ),
 			markedBudget_( 0 ),
@@ -389,12 +390,20 @@ public:
 
 	void DoOnUpdate() override
 	{
-		weapon_t weapon = BG_PrimaryWeapon( cg.snap->ps.stats );
+		weapon_t weapon = BG_GetPlayerWeapon( &cg.snap->ps );
 
 		switch ( weapon )
 		{
 			case WP_NONE:
+				return;
+
 			case WP_BLASTER:
+				if ( !showingInfiniteAmmo_ )
+				{
+					SetInnerRML( "∞" );
+					showingInfiniteAmmo_ = true;
+				}
+				builder_ = false;
 				return;
 
 			case WP_ABUILD:
@@ -414,6 +423,7 @@ public:
 				totalBudget_  = cg.snap->ps.persistant[ PERS_TOTALBUDGET ];
 				queuedBudget_ = cg.snap->ps.persistant[ PERS_QUEUEDBUDGET ];
 				builder_      = true;
+				showingInfiniteAmmo_ = false;
 
 				break;
 
@@ -421,7 +431,7 @@ public:
 				if ( showTotalAmmo_ )
 				{
 					int maxAmmo = BG_Weapon( weapon )->maxAmmo;
-					if ( !builder_ &&
+					if ( !builder_ && !showingInfiniteAmmo_ &&
 					     ammo_ == cg.snap->ps.ammo + ( cg.snap->ps.clips * maxAmmo ) )
 					{
 						return;
@@ -431,7 +441,7 @@ public:
 				}
 				else
 				{
-					if ( !builder_ &&
+					if ( !builder_ && !showingInfiniteAmmo_ &&
 					     ammo_ == cg.snap->ps.ammo )
 					{
 						return;
@@ -441,6 +451,7 @@ public:
 				}
 
 				builder_ = false;
+				showingInfiniteAmmo_ = false;
 
 				break;
 		}
@@ -468,6 +479,7 @@ public:
 private:
 	bool showTotalAmmo_;
 	bool builder_;
+	bool showingInfiniteAmmo_;
 	int  ammo_;
 	int  spentBudget_;
 	int  markedBudget_;
@@ -488,7 +500,7 @@ public:
 		int           value;
 		playerState_t *ps = &cg.snap->ps;
 
-		if ( BG_Weapon( BG_PrimaryWeapon( ps->stats ) )->infiniteAmmo )
+		if ( BG_Weapon( BG_GetPlayerWeapon( ps ) )->infiniteAmmo )
 		{
 			if ( clips_ != -1 )
 			{
@@ -3041,7 +3053,7 @@ static void CG_DrawPlayerAmmoStack()
 	int           maxVal, align;
 	static int    lastws, maxwt, lastval, valdiff;
 	playerState_t *ps = &cg.snap->ps;
-	weapon_t      primary = BG_PrimaryWeapon( ps->stats );
+	weapon_t      primary = BG_GetPlayerWeapon( ps );
 	Color::Color  localColor, foreColor;
 	rectDef_t     rect;
 	static char   buf[ 100 ];
@@ -3050,9 +3062,10 @@ static void CG_DrawPlayerAmmoStack()
 	CG_GetRocketElementColor( foreColor );
 	CG_GetRocketElementRect( &rect );
 
-	maxVal = BG_Weapon( primary )->maxAmmo;
+	const weaponAttributes_t *attributes = BG_Weapon( primary );
+	maxVal = attributes->maxAmmo;
 
-	if ( maxVal <= 0 )
+	if ( attributes->infiniteAmmo || maxVal <= 0 )
 	{
 		return; // not an ammo-carrying weapon
 	}
@@ -3152,9 +3165,10 @@ static void CG_DrawPlayerClipsStack()
 	CG_GetRocketElementColor( foreColor );
 	CG_GetRocketElementRect( &rect );
 
-	maxVal = BG_Weapon( BG_PrimaryWeapon( ps->stats ) )->maxClips;
+	const weaponAttributes_t *attributes = BG_Weapon( BG_GetPlayerWeapon( ps ) );
+	maxVal = attributes->maxClips;
 
-	if ( !maxVal )
+	if ( attributes->infiniteAmmo || !maxVal )
 	{
 		return; // not a clips weapon
 	}
@@ -3182,6 +3196,30 @@ static void CG_DrawPlayerClipsStack()
 	}
 
 	CG_DrawStack( &rect, foreColor, 0.8, LALIGN_TOPLEFT, val, maxVal );
+}
+
+static void CG_SetStackVisibility( bool visible )
+{
+	char display[ 16 ] = "";
+	const char *newDisplay = visible ? "block" : "none";
+	Rocket_GetProperty( "display", display, sizeof( display ), rocketVarType_t::ROCKET_STRING );
+
+	if ( Q_stricmp( display, newDisplay ) )
+	{
+		Rocket_SetPropertyById( "", "display", newDisplay );
+	}
+}
+
+static void CG_UpdatePlayerAmmoStack()
+{
+	const weaponAttributes_t *attributes = BG_Weapon( BG_GetPlayerWeapon( &cg.snap->ps ) );
+	CG_SetStackVisibility( !attributes->infiniteAmmo && attributes->maxAmmo > 0 );
+}
+
+static void CG_UpdatePlayerClipsStack()
+{
+	const weaponAttributes_t *attributes = BG_Weapon( BG_GetPlayerWeapon( &cg.snap->ps ) );
+	CG_SetStackVisibility( !attributes->infiniteAmmo && attributes->maxClips > 0 );
 }
 
 static void CG_Rocket_DrawMinimap()
@@ -3876,9 +3914,9 @@ struct elementRenderCmd_t
 // THESE MUST BE ALPHABETIZED
 static const elementRenderCmd_t elementRenderCmdList[] =
 {
-	{ "ammo_stack", nullptr, &CG_DrawPlayerAmmoStack, ELEMENT_HUMANS },
+	{ "ammo_stack", &CG_UpdatePlayerAmmoStack, &CG_DrawPlayerAmmoStack, ELEMENT_HUMANS },
 	{ "chattype", &CG_Rocket_DrawChatType, nullptr, ELEMENT_ALL },
-	{ "clip_stack", nullptr, &CG_DrawPlayerClipsStack, ELEMENT_HUMANS },
+	{ "clip_stack", &CG_UpdatePlayerClipsStack, &CG_DrawPlayerClipsStack, ELEMENT_HUMANS },
 	{ "clock", &CG_Rocket_DrawClock, nullptr, ELEMENT_ALL },
 	{ "connecting", &CG_Rocket_DrawConnectText, nullptr, ELEMENT_ALL },
 	{ "downloadName", &CG_Rocket_DrawDownloadName, nullptr, ELEMENT_ALL },
