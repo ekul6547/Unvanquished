@@ -1096,6 +1096,9 @@ struct cg_t
 	bool demoPlayback;
 	bool loading; // don't defer players at initial startup
 	bool intermissionStarted;
+	int intermissionStartedTime;
+	bool intermissionPresentationStarted;
+	bool intermissionScoreboardShown;
 
 	int currentCmdNumber; // usercmd_t number for this frame
 
@@ -1989,6 +1992,7 @@ void CG_AddLagometerFrameInfo();
 void CG_AddLagometerSnapshotInfo( snapshot_t *snap );
 void CG_AddSpeed();
 void CG_CenterPrint( const char *str, float sizeFactor );
+void CG_StartIntermissionPresentation();
 void CG_DrawActive();
 void       CG_RunMenuScript( char **args );
 void       CG_ResetPainBlend();
@@ -2387,7 +2391,7 @@ bool Rocket_ProcessKeyInput( Keyboard::Key key, bool down );
 void Rocket_ProcessTextInput( int c );
 void Rocket_MouseMove( int x, int y );
 void Rocket_RegisterProperty( const char *name, const char *defaultValue, bool inherited, bool force_layout, const char *parseAs );
-void Rocket_ShowScoreboard( const char *name, bool show );
+void Rocket_ShowScoreboard( const char *name, bool show, bool intermission = false, bool intermissionIntro = false );
 void Rocket_SetDataSelectIndex( int index );
 void Rocket_LoadFont( const char *font );
 void Rocket_Rocket_f( void );

@@ -157,12 +157,55 @@ void Rocket_ClearHud( unsigned weapon )
 	}
 }
 
-void Rocket_ShowScoreboard( const char *name, bool show )
+void Rocket_ShowScoreboard( const char *name, bool show, bool intermission, bool intermissionIntro )
 {
 	Rml::ElementDocument* doc = hudContext->GetDocument( name );
 
 	if ( doc )
 	{
+		Rml::Element* scoreboard = doc->GetElementById( "scoreboard" );
+
+		if ( scoreboard )
+		{
+			scoreboard->SetClass( "intermission", intermission );
+			scoreboard->SetClass( "intermission-intro", intermissionIntro );
+			scoreboard->SetClass( "aliens-win", ui_winner.Get() == "Aliens Win" );
+			scoreboard->SetClass( "humans-win", ui_winner.Get() == "Humans Win" );
+			scoreboard->SetProperty( "background-color", intermissionIntro ? "rgba(0%, 0%, 0%, 0%)" : "rgba(10%, 10%, 10%, 70%)" );
+
+			for ( Rml::Element* parent = scoreboard->GetParentNode(); parent; parent = parent->GetParentNode() )
+			{
+				if ( parent->GetTagName() == "window" )
+				{
+					parent->SetClass( "intermission-intro", intermissionIntro );
+					parent->SetProperty( "background-color", intermissionIntro ? "rgba(0%, 0%, 0%, 0%)" : "rgba(10%, 10%, 10%, 95%)" );
+					parent->SetProperty( "border-left", intermissionIntro ? "0" : ".17em rgba(0%, 0%, 0%, 35%)" );
+					parent->SetProperty( "border-right", intermissionIntro ? "0" : ".17em rgba(0%, 0%, 0%, 35%)" );
+					parent->SetProperty( "border-top", intermissionIntro ? "0" : ".17em rgba(0%, 0%, 0%, 35%)" );
+					parent->SetProperty( "border-bottom", intermissionIntro ? "0" : ".17em rgba(0%, 0%, 0%, 35%)" );
+					break;
+				}
+			}
+
+			const char* introDisplay = intermissionIntro ? "block" : "none";
+			const char* resultsDisplay = intermissionIntro ? "none" : "block";
+
+			if ( Rml::Element* element = doc->GetElementById( "intro-winner" ) )
+			{
+				element->SetProperty( "display", introDisplay );
+			}
+
+			if ( Rml::Element* element = doc->GetElementById( "scoreboard-winner" ) )
+			{
+				element->SetProperty( "display", resultsDisplay );
+			}
+
+			if ( Rml::Element* element = doc->GetElementById( "scoreboard-content" ) )
+			{
+				element->SetProperty( "display", resultsDisplay );
+			}
+		}
+
 		if ( show )
 		{
 			doc->Show();

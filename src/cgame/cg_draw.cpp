@@ -235,7 +235,30 @@ CG_DrawIntermission
 */
 static void CG_DrawIntermission()
 {
-// TODO
+	if ( !cg.intermissionPresentationStarted )
+	{
+		CG_StartIntermissionPresentation();
+	}
+
+	if ( cg.intermissionStarted && !cg.intermissionScoreboardShown && cg.time - cg.intermissionStartedTime >= 4500 )
+	{
+		Rocket_ShowScoreboard( "scoreboard", true, true, false );
+		cg.intermissionScoreboardShown = true;
+	}
+}
+
+void CG_StartIntermissionPresentation()
+{
+	if ( cg.intermissionPresentationStarted )
+	{
+		return;
+	}
+
+	cg.intermissionStartedTime = cg.time;
+	cg.intermissionPresentationStarted = true;
+
+	Rocket_ShowScoreboard( "scoreboard", true, true, true );
+	trap_S_StartLocalSound( cgs.media.timerBeaconExpiredSound, soundChannel_t::CHAN_LOCAL_SOUND );
 }
 
 /*

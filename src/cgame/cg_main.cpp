@@ -642,7 +642,7 @@ static void CG_RegisterSounds()
 
 	cgs.media.rocketpodLockonSound = trap_S_RegisterSound( "sound/buildables/rocketpod/lockon", false );
 
-	cgs.media.timerBeaconExpiredSound = trap_S_RegisterSound( "sound/feedback/beacons/timer-expired", false );
+	cgs.media.timerBeaconExpiredSound = trap_S_RegisterSound( "sound/feedback/beacons/beacon-timer-expired", false );
 	cgs.media.killSound = trap_S_RegisterSound( "sound/feedback/damage/bell", false );
 }
 

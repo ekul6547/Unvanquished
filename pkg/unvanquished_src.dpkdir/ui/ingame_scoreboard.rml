@@ -13,6 +13,86 @@
 			background-color: rgba(10%, 10%, 10%, 70%);
 		}
 
+		@keyframes intermission-backdrop-reveal {
+			0% { opacity: 0; }
+			100% { opacity: 1; }
+		}
+
+		@keyframes intermission-winner-reveal {
+			0% {
+				opacity: 0;
+				transform: scale(0.85);
+			}
+			100% {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+
+		@keyframes intermission-scoreboard-reveal {
+			0% {
+				opacity: 0;
+				transform: scale(0.97);
+			}
+			100% {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+
+		#scoreboard.intermission {
+			animation: 0.5s cubic-out intermission-scoreboard-reveal;
+		}
+
+		#scoreboard.intermission-intro {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			background-color: rgba(0%, 0%, 0%, 0%);
+			animation: 0.45s cubic-out intermission-backdrop-reveal;
+		}
+
+		window.intermission-intro {
+			background-color: rgba(0%, 0%, 0%, 0%);
+			border-left: 0;
+			border-right: 0;
+			border-top: 0;
+			border-bottom: 0;
+		}
+
+		#scoreboard.intermission-intro #intro-winner {
+			position: absolute;
+			top: 42%;
+			width: 100%;
+			text-align: center;
+			font-size: 3em;
+			color: #f2d58a;
+			animation: 0.8s cubic-out intermission-winner-reveal;
+		}
+
+		#scoreboard.intermission .winner {
+			animation: 0.8s cubic-out intermission-winner-reveal;
+		}
+
+		#scoreboard.aliens-win .winner {
+			color: #ff2b26;
+		}
+
+		#scoreboard.aliens-win #intro-winner {
+			color: #ff2b26;
+		}
+
+		#scoreboard.humans-win .winner {
+			color: #26abff;
+		}
+
+		#scoreboard.humans-win #intro-winner {
+			color: #26abff;
+		}
+
 		.winner {
 			display: block;
 			width: 100%;
@@ -152,8 +232,10 @@
 </head>
 
 <body  id="scoreboard">
-	<inlinecvar cvar="ui_winner" class="winner" />
+	<inlinecvar id="scoreboard-winner" cvar="ui_winner" class="winner" />
+	<inlinecvar id="intro-winner" cvar="ui_winner" />
 
+	<div id="scoreboard-content">
 	<half>
 		<teamname><translate>Aliens</translate> (<playerCount team="aliens"/>)</teamname>
 		<teambox class="alien">
@@ -190,6 +272,7 @@
 		<infopiece style="text-align: center; width: 15em;"><translate>Map:</translate>&nbsp;<levelname/></infopiece>
 		<infopiece style="text-align: right; width: 7em;"><translate>Time:</translate>&nbsp;<timer/></infopiece>
 	</infoarea>
+	</div>
 
 </body>
 

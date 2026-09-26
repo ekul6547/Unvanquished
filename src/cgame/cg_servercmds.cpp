@@ -324,7 +324,16 @@ void CG_ConfigStringModified( int num )
 	else if ( num == CS_INTERMISSION )
 	{
 		cg.intermissionStarted = atoi( str );
-		Rocket_ShowScoreboard( "scoreboard", cg.intermissionStarted );
+		cg.intermissionPresentationStarted = false;
+		cg.intermissionScoreboardShown = false;
+		if ( cg.intermissionStarted )
+		{
+			CG_StartIntermissionPresentation();
+		}
+		else
+		{
+			Rocket_ShowScoreboard( "scoreboard", false, false, false );
+		}
 	}
 	else if ( num >= CS_MODELS && num < CS_MODELS + MAX_MODELS )
 	{
@@ -359,6 +368,10 @@ void CG_ConfigStringModified( int num )
 	else if ( num == CS_WINNER )
 	{
 		ui_winner.Set( str );
+		if ( cg.intermissionStarted )
+		{
+			Rocket_ShowScoreboard( "scoreboard", true, true, !cg.intermissionScoreboardShown );
+		}
 	}
 	else if ( num == CS_SHADERSTATE )
 	{
@@ -388,6 +401,8 @@ static void CG_MapRestart()
 	CG_InitMarkPolys();
 
 	cg.intermissionStarted = false;
+	cg.intermissionPresentationStarted = false;
+	cg.intermissionScoreboardShown = false;
 
 	cgs.voteTime[ TEAM_NONE ] = 0;
 

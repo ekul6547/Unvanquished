@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 20:21+0100\n"
+"POT-Creation-Date: 2026-09-26 19:52+0100\n"
 "PO-Revision-Date: 2025-06-23 09:01+0000\n"
 "Last-Translator: João <kid-bigode@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/unvanquished/"
@@ -104,12 +104,12 @@ msgstr "Quantos jogadores (reais e bots) uma equipa deve ter?"
 msgid "Both teams"
 msgstr "Ambas as equipas"
 
-#: ui/callvote_fillbots.rml:14 ui/ingame_scoreboard.rml:158
+#: ui/callvote_fillbots.rml:14 ui/ingame_scoreboard.rml:240
 #: ui/options_player.rml:107 ui/options_ui.rml:99
 msgid "Aliens"
 msgstr "Alienígenas"
 
-#: ui/callvote_fillbots.rml:15 ui/ingame_scoreboard.rml:171
+#: ui/callvote_fillbots.rml:15 ui/ingame_scoreboard.rml:253
 #: ui/options_fov.rml:15
 msgid "Humans"
 msgstr "Humanos"
@@ -640,16 +640,16 @@ msgstr "Balizas"
 msgid "Bot Tactic"
 msgstr "Tática do Bot"
 
-#: ui/ingame_scoreboard.rml:183
+#: ui/ingame_scoreboard.rml:265
 msgid "Spectators"
 msgstr "Espectadores"
 
-#: ui/ingame_scoreboard.rml:190 ui/server_browser.rml:45
+#: ui/ingame_scoreboard.rml:272 ui/server_browser.rml:45
 #: ui/server_browser.rml:62
 msgid "Map:"
 msgstr "Mapa:"
 
-#: ui/ingame_scoreboard.rml:191
+#: ui/ingame_scoreboard.rml:273
 msgid "Time:"
 msgstr "Tempo:"
 
@@ -4772,37 +4772,37 @@ msgstr ""
 msgid "This buildable is disabled on this server"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:743
+#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:758
 #, c-format
 msgid "The %s has not been unlocked yet"
 msgstr "O %s não foi desbloqueado ainda"
 
-#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:562
+#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:577
 msgid "Building has been disabled for your team"
 msgstr "A construção foi desativada para a sua equipa"
 
-#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:663
-#: src/cgame/cg_servercmds.cpp:703
+#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:678
+#: src/cgame/cg_servercmds.cpp:718
 msgid "There is no Overmind"
 msgstr "Não há Overmind"
 
-#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:669
+#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:684
 msgid "There can only be one Overmind"
 msgstr "Só pode haver um Overmind"
 
-#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:590
+#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:605
 msgid "There is no reactor"
 msgstr "Não há reator"
 
-#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:596
+#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:611
 msgid "There can only be one Reactor"
 msgstr "Só pode haver um Reator"
 
-#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:674
+#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:689
 msgid "Your team cannot have any more leeches"
 msgstr "A sua equipa não pode ter mais sanguessugas"
 
-#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:601
+#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:616
 msgid "Your team cannot have any more drills"
 msgstr "A sua equipa não pode ter mais brocas"
 
@@ -4881,65 +4881,65 @@ msgstr ""
 msgid "Flank, behind you!"
 msgstr ""
 
-#: src/cgame/cg_rocket_draw.cpp:2677
+#: src/cgame/cg_rocket_draw.cpp:2671
 msgid "You are at the front of the spawn queue"
 msgstr "Está na frente da fila de spawn"
 
-#: src/cgame/cg_rocket_draw.cpp:2681
+#: src/cgame/cg_rocket_draw.cpp:2675
 #, c-format
 msgid "You are at position %d in the spawn queue"
 msgstr "Está na posição %d na fila de spawn"
 
-#: src/cgame/cg_rocket_draw.cpp:2721
+#: src/cgame/cg_rocket_draw.cpp:2715
 msgid "There are no spawns remaining"
 msgstr "Não há mais spawns disponíveis"
 
-#: src/cgame/cg_rocket_draw.cpp:2725
+#: src/cgame/cg_rocket_draw.cpp:2719
 #, c-format
 msgid "There is %d spawn remaining"
 msgid_plural "There are %d spawns remaining"
 msgstr[0] "Resta %d spawn"
 msgstr[1] "Restam %d spawns"
 
-#: src/cgame/cg_rocket_draw.cpp:3300
+#: src/cgame/cg_rocket_draw.cpp:3294
 #, c-format
 msgid "Awaiting connection…%i"
 msgstr "A aguardar conexão…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3304
+#: src/cgame/cg_rocket_draw.cpp:3298
 #, c-format
 msgid "Awaiting challenge…%i"
 msgstr "A aguardar desafio…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3308
+#: src/cgame/cg_rocket_draw.cpp:3302
 msgid "Awaiting gamestate…"
 msgstr "A aguardar estado do jogo…"
 
-#: src/cgame/cg_rocket_draw.cpp:3409
+#: src/cgame/cg_rocket_draw.cpp:3403
 msgid "Say:"
 msgstr "Dizer:"
 
-#: src/cgame/cg_rocket_draw.cpp:3410
+#: src/cgame/cg_rocket_draw.cpp:3404
 msgid "Team Say:"
 msgstr "Dizer à equipa:"
 
-#: src/cgame/cg_rocket_draw.cpp:3411
+#: src/cgame/cg_rocket_draw.cpp:3405
 msgid "Admin Say:"
 msgstr "Dizer para admin:"
 
-#: src/cgame/cg_rocket_draw.cpp:3412
+#: src/cgame/cg_rocket_draw.cpp:3406
 msgid "Command:"
 msgstr "Comando:"
 
-#: src/cgame/cg_rocket_draw.cpp:3762
+#: src/cgame/cg_rocket_draw.cpp:3756
 msgid "FIGHT!"
 msgstr "LUTA!"
 
-#: src/cgame/cg_rocket_draw.cpp:3856
+#: src/cgame/cg_rocket_draw.cpp:3850
 msgid "estimating"
 msgstr "a estimar"
 
-#: src/cgame/cg_servercmds.cpp:451
+#: src/cgame/cg_servercmds.cpp:466
 msgid ""
 "The alien team has too many players. Please wait until slots become "
 "available or join the human team."
@@ -4947,11 +4947,11 @@ msgstr ""
 "A equipa alienígena tem muitos jogadores. Por favor, aguarde até que vagas "
 "fiquem disponíveis ou junte-se *a equipa humana."
 
-#: src/cgame/cg_servercmds.cpp:453
+#: src/cgame/cg_servercmds.cpp:468
 msgid "The alien team has too many players"
 msgstr "A equipa alienígena tem muitos jogadores"
 
-#: src/cgame/cg_servercmds.cpp:457
+#: src/cgame/cg_servercmds.cpp:472
 msgid ""
 "The human team has too many players. Please wait until slots become "
 "available or join the alien team."
@@ -4959,30 +4959,30 @@ msgstr ""
 "A equipa humana tem muitos jogadores. Por favor, aguarde até que vagas "
 "fiquem disponíveis ou junte-se à equipa alienígena."
 
-#: src/cgame/cg_servercmds.cpp:459
+#: src/cgame/cg_servercmds.cpp:474
 msgid "The human team has too many players"
 msgstr "A equipa humana tem muitos jogadores"
 
-#: src/cgame/cg_servercmds.cpp:463
+#: src/cgame/cg_servercmds.cpp:478
 msgid "The alien team is locked. You cannot join the aliens at this time."
 msgstr ""
 "A equipa alienígena está bloqueada. Não se pode juntar aos alienígenas neste "
 "momento."
 
-#: src/cgame/cg_servercmds.cpp:465
+#: src/cgame/cg_servercmds.cpp:480
 msgid "The alien team is locked"
 msgstr "A equipa alienígena está bloqueada"
 
-#: src/cgame/cg_servercmds.cpp:469
+#: src/cgame/cg_servercmds.cpp:484
 msgid "The human team is locked. You cannot join the humans at this time."
 msgstr ""
 "A equipa humana está bloqueada. Não se pode juntar aos humanos neste momento."
 
-#: src/cgame/cg_servercmds.cpp:471
+#: src/cgame/cg_servercmds.cpp:486
 msgid "The human team is locked"
 msgstr "A equipa humano está bloqueado"
 
-#: src/cgame/cg_servercmds.cpp:475
+#: src/cgame/cg_servercmds.cpp:490
 msgid ""
 "The maximum number of playing clients has been reached. Please wait until "
 "slots become available."
@@ -4990,25 +4990,25 @@ msgstr ""
 "A quantidade máxima de jogadores ativos foi atingido. Por favor, aguarde até "
 "vagas ficarem disponíveis."
 
-#: src/cgame/cg_servercmds.cpp:477
+#: src/cgame/cg_servercmds.cpp:492
 msgid "No free player slots"
 msgstr "Não há vagas de jogador disponíveis"
 
-#: src/cgame/cg_servercmds.cpp:481
+#: src/cgame/cg_servercmds.cpp:496
 msgid "You must wait until the warmup time is finished before joining a team."
 msgstr ""
 "Deve esperar até que o tempo de aquecimento termine antes de se juntar a uma "
 "equipa."
 
-#: src/cgame/cg_servercmds.cpp:483
+#: src/cgame/cg_servercmds.cpp:498
 msgid "You cannot join a team during warmup."
 msgstr "Não se pode juntar a uma equipa durante o aquecimento."
 
-#: src/cgame/cg_servercmds.cpp:491
+#: src/cgame/cg_servercmds.cpp:506
 msgid "Cheats are not enabled on this server"
 msgstr "Batotas não estão ativadas neste servidor"
 
-#: src/cgame/cg_servercmds.cpp:495
+#: src/cgame/cg_servercmds.cpp:510
 msgid ""
 "Cheats are not enabled on this server, so you may not use this command while "
 "on a team"
@@ -5016,27 +5016,27 @@ msgstr ""
 "As batotas não estão ativadas neste servidor, portanto, Não pode usar este "
 "comando enquanto estiver numa equipa"
 
-#: src/cgame/cg_servercmds.cpp:502
+#: src/cgame/cg_servercmds.cpp:517
 msgid "Join a team first"
 msgstr "Junte-se primeiro a uma equipa"
 
-#: src/cgame/cg_servercmds.cpp:508
+#: src/cgame/cg_servercmds.cpp:523
 msgid "You can only use this command when spectating"
 msgstr "Só pode usar este comando quando estiver a olhar"
 
-#: src/cgame/cg_servercmds.cpp:513
+#: src/cgame/cg_servercmds.cpp:528
 msgid "Must be alien to use this command"
 msgstr "Deve ser um alienígena para usar este comando"
 
-#: src/cgame/cg_servercmds.cpp:518
+#: src/cgame/cg_servercmds.cpp:533
 msgid "Must be human to use this command"
 msgstr "Deve ser humano para usar este comando"
 
-#: src/cgame/cg_servercmds.cpp:523
+#: src/cgame/cg_servercmds.cpp:538
 msgid "Must be alive to use this command"
 msgstr "É necessário estar vivo para usar este comando"
 
-#: src/cgame/cg_servercmds.cpp:529
+#: src/cgame/cg_servercmds.cpp:544
 msgid ""
 "There is no room to build here. Move until the structure turns translucent "
 "green, indicating a valid build location."
@@ -5044,11 +5044,11 @@ msgstr ""
 "Não há espaço para construir aqui. Mova-se até que a estrutura fique verde "
 "translúcida, indicando uma localização de construção válida."
 
-#: src/cgame/cg_servercmds.cpp:531
+#: src/cgame/cg_servercmds.cpp:546
 msgid "There is no room to build here"
 msgstr "Não há espaço para construir aqui"
 
-#: src/cgame/cg_servercmds.cpp:535
+#: src/cgame/cg_servercmds.cpp:550
 msgid ""
 "Cannot build on this surface. The surface is too steep or unsuitable for "
 "building. Please choose another site for this structure."
@@ -5056,15 +5056,15 @@ msgstr ""
 "Não é possível construir nesta superfície. A superfície é muito íngreme ou "
 "inadequada para construção. Escolha outro local para esta estrutura."
 
-#: src/cgame/cg_servercmds.cpp:538
+#: src/cgame/cg_servercmds.cpp:553
 msgid "Cannot build on this surface"
 msgstr "Não é possível construir nesta superfície"
 
-#: src/cgame/cg_servercmds.cpp:543
+#: src/cgame/cg_servercmds.cpp:558
 msgid "You cannot build that structure"
 msgstr "Não pode construir essa estrutura"
 
-#: src/cgame/cg_servercmds.cpp:547
+#: src/cgame/cg_servercmds.cpp:562
 msgid ""
 "This action would remove your team's last spawn point, which often quickly "
 "results in a loss. Try building more spawns."
@@ -5072,11 +5072,11 @@ msgstr ""
 "Esta ação removeria o último ponto de spawn da sua equipa, o que muitas "
 "vezes resulta rapidamente numa derrota. Tente construir mais pontos de spawn."
 
-#: src/cgame/cg_servercmds.cpp:550
+#: src/cgame/cg_servercmds.cpp:565
 msgid "You may not deconstruct the last spawn"
 msgstr "Não pode destruir o último ponto de spawn"
 
-#: src/cgame/cg_servercmds.cpp:554
+#: src/cgame/cg_servercmds.cpp:569
 msgid ""
 "The main structure is protected against instant removal. When it is marked, "
 "you can move it to another place by building it there."
@@ -5084,23 +5084,23 @@ msgstr ""
 "A estrutura principal está protegida contra remoção instantânea. Quando ela "
 "estiver marcada, Pode movê-la para outro local construindo-a lá."
 
-#: src/cgame/cg_servercmds.cpp:557
+#: src/cgame/cg_servercmds.cpp:572
 msgid "You may not deconstruct this structure"
 msgstr "Não pode destruir esta estrutura"
 
-#: src/cgame/cg_servercmds.cpp:561
+#: src/cgame/cg_servercmds.cpp:576
 msgid "Building has been disabled on the server for your team."
 msgstr "A construção foi desativada no servidor para a sua equipa."
 
-#: src/cgame/cg_servercmds.cpp:566
+#: src/cgame/cg_servercmds.cpp:581
 msgid "You are no longer permitted to build."
 msgstr "Não tem mais permissão para construir."
 
-#: src/cgame/cg_servercmds.cpp:567
+#: src/cgame/cg_servercmds.cpp:582
 msgid "You are no longer permitted to build"
 msgstr "Não tem mais permissão para construir"
 
-#: src/cgame/cg_servercmds.cpp:571
+#: src/cgame/cg_servercmds.cpp:586
 msgid ""
 "Your team has decided to admit defeat and concede the game: There's no point "
 "in building anything anymore."
@@ -5108,11 +5108,11 @@ msgstr ""
 "A sua equipa decidiu admitir a derrota e conceder o jogo: não faz sentido em "
 "construir mais nada."
 
-#: src/cgame/cg_servercmds.cpp:573
+#: src/cgame/cg_servercmds.cpp:588
 msgid "Cannot build after admitting defeat"
 msgstr "Não é possível construir após admitir a derrota"
 
-#: src/cgame/cg_servercmds.cpp:577
+#: src/cgame/cg_servercmds.cpp:592
 msgid ""
 "There are no resources remaining. Free up resources by marking existing "
 "buildables for deconstruction."
@@ -5120,19 +5120,19 @@ msgstr ""
 "Não há mais recursos disponíveis. Libere recursos marcando construções "
 "existentes para demolição."
 
-#: src/cgame/cg_servercmds.cpp:579
+#: src/cgame/cg_servercmds.cpp:594
 msgid "There are no resources remaining"
 msgstr "Não há mais recursos disponíveis"
 
-#: src/cgame/cg_servercmds.cpp:583
+#: src/cgame/cg_servercmds.cpp:598
 msgid "This buildable is not powered."
 msgstr "Esta construção não está energizada."
 
-#: src/cgame/cg_servercmds.cpp:584
+#: src/cgame/cg_servercmds.cpp:599
 msgid "This buildable is not powered"
 msgstr "Esta construção não está energizada"
 
-#: src/cgame/cg_servercmds.cpp:588
+#: src/cgame/cg_servercmds.cpp:603
 msgid ""
 "There is no reactor. A reactor must be built before any other structure can "
 "be placed."
@@ -5140,12 +5140,12 @@ msgstr ""
 "Não há reator. Um reator deve ser construído antes que qualquer outra "
 "estrutura possa ser posta."
 
-#: src/cgame/cg_servercmds.cpp:594
+#: src/cgame/cg_servercmds.cpp:609
 msgid ""
 "There can only be one Reactor. Mark the existing one if you wish to move it."
 msgstr "Só pode haver um Reator. Marque o existente se desejar movê-lo."
 
-#: src/cgame/cg_servercmds.cpp:605
+#: src/cgame/cg_servercmds.cpp:620
 msgid ""
 "You have no room to carry this. Please sell any conflicting upgrades before "
 "purchasing this item."
@@ -5153,33 +5153,33 @@ msgstr ""
 "Não tem espaço para carregar isto. Por favor, venda quaisquer atualizações "
 "conflitantes antes de comprar este item."
 
-#: src/cgame/cg_servercmds.cpp:607
+#: src/cgame/cg_servercmds.cpp:622
 msgid "You have no room to carry this"
 msgstr "Não tem espaço para carregar isso"
 
-#: src/cgame/cg_servercmds.cpp:611
+#: src/cgame/cg_servercmds.cpp:626
 msgid ""
 "Insufficient funds. You do not have enough credits to perform this action."
 msgstr ""
 "Fundos insuficientes. Não possui créditos suficientes para realizar esta "
 "ação."
 
-#: src/cgame/cg_servercmds.cpp:613
+#: src/cgame/cg_servercmds.cpp:628
 msgid "Insufficient funds"
 msgstr "Fundos insuficientes"
 
-#: src/cgame/cg_servercmds.cpp:617
+#: src/cgame/cg_servercmds.cpp:632
 msgid ""
 "You already hold this item. It is not possible to carry multiple items of "
 "the same type."
 msgstr ""
 "Já possui este item. Não é possível carregar vários itens do mesmo tipo."
 
-#: src/cgame/cg_servercmds.cpp:619
+#: src/cgame/cg_servercmds.cpp:634
 msgid "You already hold this item"
 msgstr "Já possui este item"
 
-#: src/cgame/cg_servercmds.cpp:623
+#: src/cgame/cg_servercmds.cpp:638
 msgid ""
 "You must be near a powered Armoury in order to purchase weapons, upgrades or "
 "ammunition."
@@ -5187,11 +5187,11 @@ msgstr ""
 "Deve estar perto de um Arsenal energizado para comprar armas, atualizações "
 "ou munição."
 
-#: src/cgame/cg_servercmds.cpp:625
+#: src/cgame/cg_servercmds.cpp:640
 msgid "You must be near a powered Armoury"
 msgstr "Deve estar perto de um Arsenal energizado"
 
-#: src/cgame/cg_servercmds.cpp:629
+#: src/cgame/cg_servercmds.cpp:644
 msgid ""
 "You must be near a Reactor, a Drill or a powered Armoury in order to "
 "purchase energy ammunition."
@@ -5199,19 +5199,19 @@ msgstr ""
 "Deve estar próximo a um Reator, uma Broca ou um Arsenal energizado para "
 "comprar munição de energia."
 
-#: src/cgame/cg_servercmds.cpp:631
+#: src/cgame/cg_servercmds.cpp:646
 msgid "You must be near a Reactor, a Drill or a powered Armoury"
 msgstr "Deve estar próximo a um Reator, uma Broca ou um Arsenal energizado"
 
-#: src/cgame/cg_servercmds.cpp:635
+#: src/cgame/cg_servercmds.cpp:650
 msgid "There is not enough room here to change armour."
 msgstr ""
 
-#: src/cgame/cg_servercmds.cpp:636
+#: src/cgame/cg_servercmds.cpp:651
 msgid "Not enough room here to change armour."
 msgstr ""
 
-#: src/cgame/cg_servercmds.cpp:640
+#: src/cgame/cg_servercmds.cpp:655
 msgid ""
 "You are not allowed to buy or sell weapons until your build timer has "
 "expired."
@@ -5219,24 +5219,24 @@ msgstr ""
 "Não está autorizado a comprar ou vender armas até que o temporizador de "
 "construção tenha expirado."
 
-#: src/cgame/cg_servercmds.cpp:642
+#: src/cgame/cg_servercmds.cpp:657
 msgid "You can not buy or sell weapons until your build timer expires"
 msgstr ""
 "Não pode comprar ou vender armas até que o temporizador de construção expire"
 
-#: src/cgame/cg_servercmds.cpp:647
+#: src/cgame/cg_servercmds.cpp:662
 msgid "You must be dead to use the class command"
 msgstr "Deve estar morto para usar o comando de classe"
 
-#: src/cgame/cg_servercmds.cpp:651
+#: src/cgame/cg_servercmds.cpp:666
 msgid "Unknown starting item"
 msgstr "Item de início desconhecido"
 
-#: src/cgame/cg_servercmds.cpp:655
+#: src/cgame/cg_servercmds.cpp:670
 msgid "Starting item not allowed"
 msgstr "Item inicial não permitido"
 
-#: src/cgame/cg_servercmds.cpp:661
+#: src/cgame/cg_servercmds.cpp:676
 msgid ""
 "There is no Overmind. An Overmind must be built before any other structure "
 "can be placed."
@@ -5244,13 +5244,13 @@ msgstr ""
 "Não há Overmind. Um Overmind deve ser construído antes que qualquer outra "
 "estrutura possa ser posta."
 
-#: src/cgame/cg_servercmds.cpp:667
+#: src/cgame/cg_servercmds.cpp:682
 msgid ""
 "There can only be one Overmind. Deconstruct the existing one if you wish to "
 "move it."
 msgstr "Só pode haver um Overmind. Desconstrua o existente se desejar movê-lo."
 
-#: src/cgame/cg_servercmds.cpp:678
+#: src/cgame/cg_servercmds.cpp:693
 msgid ""
 "The Overmind cannot control any more structures. Deconstruct existing "
 "structures to build more."
@@ -5258,11 +5258,11 @@ msgstr ""
 "O Overmind não pode controlar mais estruturas. Desconstrua estruturas "
 "existentes para construir mais."
 
-#: src/cgame/cg_servercmds.cpp:680
+#: src/cgame/cg_servercmds.cpp:695
 msgid "The Overmind cannot control any more structures"
 msgstr "O Overmind não pode controlar mais estruturas"
 
-#: src/cgame/cg_servercmds.cpp:684
+#: src/cgame/cg_servercmds.cpp:699
 msgid ""
 "There is no room to evolve here. Move away from walls or other nearby "
 "objects and try again."
@@ -5270,11 +5270,11 @@ msgstr ""
 "Não tem espaço para construir aqui. Saia de perto de paredes ou outros "
 "objetos por perto e tente novamente."
 
-#: src/cgame/cg_servercmds.cpp:686
+#: src/cgame/cg_servercmds.cpp:701
 msgid "There is no room to evolve here"
 msgstr "Não tem espaço para evoluir aqui"
 
-#: src/cgame/cg_servercmds.cpp:690
+#: src/cgame/cg_servercmds.cpp:705
 msgid ""
 "This location is too close to the enemy to evolve. Move away from the "
 "enemy's presence and try again."
@@ -5282,75 +5282,75 @@ msgstr ""
 "Este local é muito perto do inimigo para evoluir. Afaste-se da presença do "
 "inimigo e tente novamente."
 
-#: src/cgame/cg_servercmds.cpp:692
+#: src/cgame/cg_servercmds.cpp:707
 msgid "This location is too close to the enemy to evolve"
 msgstr "Este local é muito perto do inimigo para evoluir"
 
-#: src/cgame/cg_servercmds.cpp:696 src/cgame/cg_servercmds.cpp:697
+#: src/cgame/cg_servercmds.cpp:711 src/cgame/cg_servercmds.cpp:712
 msgid "The Overmind is too far away to devolve."
 msgstr "O Overmind está muito longe para destransformar."
 
-#: src/cgame/cg_servercmds.cpp:701
+#: src/cgame/cg_servercmds.cpp:716
 msgid ""
 "There is no Overmind. An Overmind must be built to allow you to upgrade."
 msgstr ""
 "Não há Overmind. Um Overmind deve ser construído para permitir a atualização."
 
-#: src/cgame/cg_servercmds.cpp:707
+#: src/cgame/cg_servercmds.cpp:722
 msgid "You cannot evolve until your build timer has expired."
 msgstr "Você não pode evoluir até seu tempo de construção estiver expirado."
 
-#: src/cgame/cg_servercmds.cpp:708
+#: src/cgame/cg_servercmds.cpp:723
 msgid "You cannot evolve until your build timer expires"
 msgstr "Você não pode evoluir até seu tempo de construção expirar"
 
-#: src/cgame/cg_servercmds.cpp:712
+#: src/cgame/cg_servercmds.cpp:727
 msgid "Wait a second after attacking or evolving"
 msgstr "Espere um segundo depois de atacar ou evoluir"
 
-#: src/cgame/cg_servercmds.cpp:720
+#: src/cgame/cg_servercmds.cpp:735
 #, c-format
 msgid "You cannot evolve into a %s"
 msgstr "Você não pode evoluir para %s"
 
-#: src/cgame/cg_servercmds.cpp:725
+#: src/cgame/cg_servercmds.cpp:740
 msgid "You cannot evolve while wallwalking"
 msgstr "Não pode evoluir enquanto estiver a andar na parede"
 
-#: src/cgame/cg_servercmds.cpp:729
+#: src/cgame/cg_servercmds.cpp:744
 msgid "Unknown class"
 msgstr "Classe desconhecida"
 
-#: src/cgame/cg_servercmds.cpp:733
+#: src/cgame/cg_servercmds.cpp:748
 #, c-format
 msgid "You cannot spawn as a %s"
 msgstr "Não pode renascer como um(a) %s"
 
-#: src/cgame/cg_servercmds.cpp:738
+#: src/cgame/cg_servercmds.cpp:753
 #, c-format
 msgid "The %s is not allowed"
 msgstr "O %s não é permitido"
 
-#: src/cgame/cg_servercmds.cpp:748
+#: src/cgame/cg_servercmds.cpp:763
 #, c-format
 msgid "cgame: debug: no such menu %d"
 msgstr "cgame: depuração: nenhum menu com esse número %d"
 
-#: src/cgame/cg_servercmds.cpp:851
+#: src/cgame/cg_servercmds.cpp:866
 msgid "^1*DEAD*^*"
 msgstr ""
 
-#: src/cgame/cg_servercmds.cpp:912
+#: src/cgame/cg_servercmds.cpp:927
 #, c-format
 msgid "%sPrivate message from: ^7%s"
 msgstr "%sMensagem privada de: ^7%s"
 
-#: src/cgame/cg_servercmds.cpp:920
+#: src/cgame/cg_servercmds.cpp:935
 #, c-format
 msgid ">> to reply, say: '/m %d [your message]' or '/r [your message]' <<"
 msgstr ""
 
-#: src/cgame/cg_servercmds.cpp:1411
+#: src/cgame/cg_servercmds.cpp:1426
 #, c-format
 msgid "Unknown client game command: %s"
 msgstr "Comando de cliente do jogo desconhecido: %s"
@@ -5767,43 +5767,43 @@ msgstr "$1$ ^3DECONSTRUCTED^* por $2$"
 msgid "$1$ ^3DESTROYED^* by $2$"
 msgstr "$1$ ^3DESTROYED^* por $2$"
 
-#: src/sgame/sg_main.cpp:1997
+#: src/sgame/sg_main.cpp:1998
 msgid "Timelimit hit"
 msgstr "Limite de tempo atingido"
 
-#: src/sgame/sg_main.cpp:2008
+#: src/sgame/sg_main.cpp:2009
 msgid "$1$ minutes remaining!"
 msgstr "$1$ minutos restantes!"
 
-#: src/sgame/sg_main.cpp:2016
+#: src/sgame/sg_main.cpp:2017
 msgid "1 minute remaining!"
 msgstr "Resta 1 minuto!"
 
-#: src/sgame/sg_main.cpp:2029
+#: src/sgame/sg_main.cpp:2030
 msgid "Humans win"
 msgstr "Humanos vencem"
 
-#: src/sgame/sg_main.cpp:2043
+#: src/sgame/sg_main.cpp:2044
 msgid "Aliens win"
 msgstr "Alienígenas vencem"
 
-#: src/sgame/sg_main.cpp:2057
+#: src/sgame/sg_main.cpp:2058
 msgid "Empty teams skip map time exceeded."
 msgstr "Tempo de pular mapa excedido para equipas vazias."
 
-#: src/sgame/sg_main.cpp:2263
+#: src/sgame/sg_main.cpp:2264
 msgid "The game has been paused. Please wait."
 msgstr "O jogo está em pausa. Por-favor espere."
 
-#: src/sgame/sg_main.cpp:2267
+#: src/sgame/sg_main.cpp:2268
 msgid "Server: Game will auto-unpause in $1$ seconds"
 msgstr "Servidor: Jogo irá auto-resumir em $1$ segundos"
 
-#: src/sgame/sg_main.cpp:2286
+#: src/sgame/sg_main.cpp:2287
 msgid "Server: The game has been unpaused automatically ($1$ minutes max)"
 msgstr "Servidor: O jogo foi retomado automaticamente (máximo de $1$ minutos)"
 
-#: src/sgame/sg_main.cpp:2289
+#: src/sgame/sg_main.cpp:2290
 msgid "The game has been unpaused!"
 msgstr "O jogo foi retomado!"
 

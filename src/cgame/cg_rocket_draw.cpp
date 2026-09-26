@@ -2011,7 +2011,9 @@ public:
 			return;
 		}
 
-		if ( cg.centerPrintTime + CENTER_PRINT_DURATION < cg.time )
+		int duration = cg.intermissionPresentationStarted && !cg.intermissionScoreboardShown ? 4500 : CENTER_PRINT_DURATION;
+
+		if ( cg.centerPrintTime + duration < cg.time )
 		{
 			if ( showTime_ >= 0 )
 			{
@@ -2029,7 +2031,7 @@ public:
 			             Rml::Property( cg.centerPrintSizeFactor, Rml::Property::EM ) );
 		}
 
-		SetProperty( "opacity", va( "%f", CG_FadeAlpha( cg.centerPrintTime, CENTER_PRINT_DURATION ) ) );
+		SetProperty( "opacity", va( "%f", CG_FadeAlpha( cg.centerPrintTime, duration ) ) );
 	}
 
 private:

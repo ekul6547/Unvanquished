@@ -35,6 +35,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #include "lua/Interpreter.h"
 
 #define INTERMISSION_DELAY_TIME 1000
+#define INTERMISSION_MIN_TIME 15000
 
 level_locals_t level;
 
@@ -1858,7 +1859,7 @@ void LogExit( const char *string )
 =================
 CheckIntermissionExit
 
-The level will stay at the intermission for a minimum of 5 seconds
+The level will stay at the intermission for a minimum of 15 seconds
 If all players wish to continue, the level will then exit.
 If one or more players have not acknowledged the continue, the game will
 wait 10 seconds before going on.
@@ -1912,7 +1913,7 @@ static void CheckIntermissionExit()
 	trap_SetConfigstring( CS_CLIENTS_READY, Com_ClientListString( &readyMasks ) );
 
 	// never exit in less than five seconds or if there's an ongoing vote
-	if ( voting || level.time < level.intermissiontime + 5000 )
+	if ( voting || level.time < level.intermissiontime + INTERMISSION_MIN_TIME )
 	{
 		return;
 	}

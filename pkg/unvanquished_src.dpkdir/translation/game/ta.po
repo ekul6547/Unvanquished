@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 20:21+0100\n"
+"POT-Creation-Date: 2026-09-26 19:52+0100\n"
 "PO-Revision-Date: 2025-06-06 09:40+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/unvanquished/"
@@ -103,12 +103,12 @@ msgstr "அணிகள் எத்தனை வீரர்கள் (பய�
 msgid "Both teams"
 msgstr "இரு அணிகளும்"
 
-#: ui/callvote_fillbots.rml:14 ui/ingame_scoreboard.rml:158
+#: ui/callvote_fillbots.rml:14 ui/ingame_scoreboard.rml:240
 #: ui/options_player.rml:107 ui/options_ui.rml:99
 msgid "Aliens"
 msgstr "வேற்றுகிரகவாசிகள்"
 
-#: ui/callvote_fillbots.rml:15 ui/ingame_scoreboard.rml:171
+#: ui/callvote_fillbots.rml:15 ui/ingame_scoreboard.rml:253
 #: ui/options_fov.rml:15
 msgid "Humans"
 msgstr "மனிதர்கள்"
@@ -629,16 +629,16 @@ msgstr "பீக்கான்கள்"
 msgid "Bot Tactic"
 msgstr "போட் தந்திரோபாயம்"
 
-#: ui/ingame_scoreboard.rml:183
+#: ui/ingame_scoreboard.rml:265
 msgid "Spectators"
 msgstr "பார்வையாளர்கள்"
 
-#: ui/ingame_scoreboard.rml:190 ui/server_browser.rml:45
+#: ui/ingame_scoreboard.rml:272 ui/server_browser.rml:45
 #: ui/server_browser.rml:62
 msgid "Map:"
 msgstr "வரைப்படம்:"
 
-#: ui/ingame_scoreboard.rml:191
+#: ui/ingame_scoreboard.rml:273
 msgid "Time:"
 msgstr "நேரம்:"
 
@@ -4758,37 +4758,37 @@ msgstr "திரை அதே (%dx%d)"
 msgid "This buildable is disabled on this server"
 msgstr ""
 
-#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:743
+#: src/cgame/cg_rocket_datasource.cpp:1404 src/cgame/cg_servercmds.cpp:758
 #, c-format
 msgid "The %s has not been unlocked yet"
 msgstr "%s இன்னும் திறக்கப்படவில்லை"
 
-#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:562
+#: src/cgame/cg_rocket_datasource.cpp:1410 src/cgame/cg_servercmds.cpp:577
 msgid "Building has been disabled for your team"
 msgstr "உங்கள் அணிக்கு கட்டிடம் முடக்கப்பட்டுள்ளது"
 
-#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:663
-#: src/cgame/cg_servercmds.cpp:703
+#: src/cgame/cg_rocket_datasource.cpp:1413 src/cgame/cg_servercmds.cpp:678
+#: src/cgame/cg_servercmds.cpp:718
 msgid "There is no Overmind"
 msgstr "மிகைப்படுத்தல் இல்லை"
 
-#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:669
+#: src/cgame/cg_rocket_datasource.cpp:1416 src/cgame/cg_servercmds.cpp:684
 msgid "There can only be one Overmind"
 msgstr "ஒரு மிகைப்படுத்தல் மட்டுமே இருக்க முடியும்"
 
-#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:590
+#: src/cgame/cg_rocket_datasource.cpp:1419 src/cgame/cg_servercmds.cpp:605
 msgid "There is no reactor"
 msgstr "உலை இல்லை"
 
-#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:596
+#: src/cgame/cg_rocket_datasource.cpp:1422 src/cgame/cg_servercmds.cpp:611
 msgid "There can only be one Reactor"
 msgstr "ஒரு உலை மட்டுமே இருக்க முடியும்"
 
-#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:674
+#: src/cgame/cg_rocket_datasource.cpp:1425 src/cgame/cg_servercmds.cpp:689
 msgid "Your team cannot have any more leeches"
 msgstr "உங்கள் குழுவில் மேலும் லீச்ச்கள் இருக்க முடியாது"
 
-#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:601
+#: src/cgame/cg_rocket_datasource.cpp:1428 src/cgame/cg_servercmds.cpp:616
 msgid "Your team cannot have any more drills"
 msgstr "உங்கள் குழுவில் மேலும் பயிற்சிகள் இருக்க முடியாது"
 
@@ -4867,65 +4867,65 @@ msgstr "பக்கவாட்டு"
 msgid "Flank, behind you!"
 msgstr "பக்கவாட்டு, உங்களுக்கு பின்னால்!"
 
-#: src/cgame/cg_rocket_draw.cpp:2677
+#: src/cgame/cg_rocket_draw.cpp:2671
 msgid "You are at the front of the spawn queue"
 msgstr "நீங்கள் ச்பான் வரிசையின் முன்னால் இருக்கிறீர்கள்"
 
-#: src/cgame/cg_rocket_draw.cpp:2681
+#: src/cgame/cg_rocket_draw.cpp:2675
 #, c-format
 msgid "You are at position %d in the spawn queue"
 msgstr "ச்பான் வரிசையில் நீங்கள் %d நிலையில் இருக்கிறீர்கள்"
 
-#: src/cgame/cg_rocket_draw.cpp:2721
+#: src/cgame/cg_rocket_draw.cpp:2715
 msgid "There are no spawns remaining"
 msgstr "மீதமுள்ள ச்பான்ச் இல்லை"
 
-#: src/cgame/cg_rocket_draw.cpp:2725
+#: src/cgame/cg_rocket_draw.cpp:2719
 #, c-format
 msgid "There is %d spawn remaining"
 msgid_plural "There are %d spawns remaining"
 msgstr[0] "%d ச்பான் மீதமுள்ளது"
 msgstr[1] "%d ச்பான்ச் மீதமுள்ளவை"
 
-#: src/cgame/cg_rocket_draw.cpp:3300
+#: src/cgame/cg_rocket_draw.cpp:3294
 #, c-format
 msgid "Awaiting connection…%i"
 msgstr "இணைப்புக்காக காத்திருக்கிறது…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3304
+#: src/cgame/cg_rocket_draw.cpp:3298
 #, c-format
 msgid "Awaiting challenge…%i"
 msgstr "சவாலுக்காக காத்திருக்கிறது…%i"
 
-#: src/cgame/cg_rocket_draw.cpp:3308
+#: src/cgame/cg_rocket_draw.cpp:3302
 msgid "Awaiting gamestate…"
 msgstr "கேம்ச்டேட்டுக்காக காத்திருக்கிறது…"
 
-#: src/cgame/cg_rocket_draw.cpp:3409
+#: src/cgame/cg_rocket_draw.cpp:3403
 msgid "Say:"
 msgstr "சொல்லுங்கள்:"
 
-#: src/cgame/cg_rocket_draw.cpp:3410
+#: src/cgame/cg_rocket_draw.cpp:3404
 msgid "Team Say:"
 msgstr "குழு கூறுகிறது:"
 
-#: src/cgame/cg_rocket_draw.cpp:3411
+#: src/cgame/cg_rocket_draw.cpp:3405
 msgid "Admin Say:"
 msgstr "நிர்வாகி சொல்லுங்கள்:"
 
-#: src/cgame/cg_rocket_draw.cpp:3412
+#: src/cgame/cg_rocket_draw.cpp:3406
 msgid "Command:"
 msgstr "கட்டளை:"
 
-#: src/cgame/cg_rocket_draw.cpp:3762
+#: src/cgame/cg_rocket_draw.cpp:3756
 msgid "FIGHT!"
 msgstr "சண்டை!"
 
-#: src/cgame/cg_rocket_draw.cpp:3856
+#: src/cgame/cg_rocket_draw.cpp:3850
 msgid "estimating"
 msgstr "மதிப்பீடு"
 
-#: src/cgame/cg_servercmds.cpp:451
+#: src/cgame/cg_servercmds.cpp:466
 msgid ""
 "The alien team has too many players. Please wait until slots become "
 "available or join the human team."
@@ -4933,11 +4933,11 @@ msgstr ""
 "ஏலியன் அணியில் அதிகமான வீரர்கள் உள்ளனர். இடங்கள் கிடைக்கும் வரை காத்திருங்கள் அல்லது மனித "
 "அணியில் சேரவும்."
 
-#: src/cgame/cg_servercmds.cpp:453
+#: src/cgame/cg_servercmds.cpp:468
 msgid "The alien team has too many players"
 msgstr "ஏலியன் அணியில் அதிகமான வீரர்கள் உள்ளனர்"
 
-#: src/cgame/cg_servercmds.cpp:457
+#: src/cgame/cg_servercmds.cpp:472
 msgid ""
 "The human team has too many players. Please wait until slots become "
 "available or join the alien team."
@@ -4945,27 +4945,27 @@ msgstr ""
 "மனித அணியில் அதிகமான வீரர்கள் உள்ளனர். இடங்கள் கிடைக்கும் வரை காத்திருங்கள் அல்லது அன்னிய "
 "அணியில் சேரவும்."
 
-#: src/cgame/cg_servercmds.cpp:459
+#: src/cgame/cg_servercmds.cpp:474
 msgid "The human team has too many players"
 msgstr "மனித அணியில் அதிகமான வீரர்கள் உள்ளனர்"
 
-#: src/cgame/cg_servercmds.cpp:463
+#: src/cgame/cg_servercmds.cpp:478
 msgid "The alien team is locked. You cannot join the aliens at this time."
 msgstr "அன்னிய அணி பூட்டப்பட்டுள்ளது. இந்த நேரத்தில் நீங்கள் வெளிநாட்டினருடன் சேர முடியாது."
 
-#: src/cgame/cg_servercmds.cpp:465
+#: src/cgame/cg_servercmds.cpp:480
 msgid "The alien team is locked"
 msgstr "அன்னிய அணி பூட்டப்பட்டுள்ளது"
 
-#: src/cgame/cg_servercmds.cpp:469
+#: src/cgame/cg_servercmds.cpp:484
 msgid "The human team is locked. You cannot join the humans at this time."
 msgstr "மனித அணி பூட்டப்பட்டுள்ளது. இந்த நேரத்தில் நீங்கள் மனிதர்களுடன் சேர முடியாது."
 
-#: src/cgame/cg_servercmds.cpp:471
+#: src/cgame/cg_servercmds.cpp:486
 msgid "The human team is locked"
 msgstr "மனித அணி பூட்டப்பட்டுள்ளது"
 
-#: src/cgame/cg_servercmds.cpp:475
+#: src/cgame/cg_servercmds.cpp:490
 msgid ""
 "The maximum number of playing clients has been reached. Please wait until "
 "slots become available."
@@ -4973,24 +4973,24 @@ msgstr ""
 "விளையாடும் வாடிக்கையாளர்களின் அதிகபட்ச எண்ணிக்கை எட்டப்பட்டுள்ளது. இடங்கள் கிடைக்கும் வரை "
 "காத்திருங்கள்."
 
-#: src/cgame/cg_servercmds.cpp:477
+#: src/cgame/cg_servercmds.cpp:492
 msgid "No free player slots"
 msgstr "இலவச பிளேயர் இடங்கள் இல்லை"
 
-#: src/cgame/cg_servercmds.cpp:481
+#: src/cgame/cg_servercmds.cpp:496
 msgid "You must wait until the warmup time is finished before joining a team."
 msgstr ""
 "ஒரு அணியில் சேருவதற்கு முன்பு சூடான நேரம் முடியும் வரை நீங்கள் காத்திருக்க வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:483
+#: src/cgame/cg_servercmds.cpp:498
 msgid "You cannot join a team during warmup."
 msgstr "வெப்பமயமாதலின் போது நீங்கள் ஒரு அணியில் சேர முடியாது."
 
-#: src/cgame/cg_servercmds.cpp:491
+#: src/cgame/cg_servercmds.cpp:506
 msgid "Cheats are not enabled on this server"
 msgstr "இந்த சேவையகத்தில் ஏமாற்றுக்காரர்கள் இயக்கப்படவில்லை"
 
-#: src/cgame/cg_servercmds.cpp:495
+#: src/cgame/cg_servercmds.cpp:510
 msgid ""
 "Cheats are not enabled on this server, so you may not use this command while "
 "on a team"
@@ -4998,27 +4998,27 @@ msgstr ""
 "இந்த சேவையகத்தில் ஏமாற்றுக்காரர்கள் இயக்கப்படவில்லை, எனவே நீங்கள் ஒரு குழுவில் இருக்கும்போது "
 "இந்த கட்டளையைப் பயன்படுத்தக்கூடாது"
 
-#: src/cgame/cg_servercmds.cpp:502
+#: src/cgame/cg_servercmds.cpp:517
 msgid "Join a team first"
 msgstr "முதலில் ஒரு அணியில் சேரவும்"
 
-#: src/cgame/cg_servercmds.cpp:508
+#: src/cgame/cg_servercmds.cpp:523
 msgid "You can only use this command when spectating"
 msgstr "நீங்கள் பார்க்கும்போது மட்டுமே இந்த கட்டளையைப் பயன்படுத்த முடியும்"
 
-#: src/cgame/cg_servercmds.cpp:513
+#: src/cgame/cg_servercmds.cpp:528
 msgid "Must be alien to use this command"
 msgstr "இந்த கட்டளையைப் பயன்படுத்த அந்நியராக இருக்க வேண்டும்"
 
-#: src/cgame/cg_servercmds.cpp:518
+#: src/cgame/cg_servercmds.cpp:533
 msgid "Must be human to use this command"
 msgstr "இந்த கட்டளையைப் பயன்படுத்த மனிதராக இருக்க வேண்டும்"
 
-#: src/cgame/cg_servercmds.cpp:523
+#: src/cgame/cg_servercmds.cpp:538
 msgid "Must be alive to use this command"
 msgstr "இந்த கட்டளையைப் பயன்படுத்த உயிருடன் இருக்க வேண்டும்"
 
-#: src/cgame/cg_servercmds.cpp:529
+#: src/cgame/cg_servercmds.cpp:544
 msgid ""
 "There is no room to build here. Move until the structure turns translucent "
 "green, indicating a valid build location."
@@ -5026,11 +5026,11 @@ msgstr ""
 "இங்கே கட்ட இடமில்லை. கட்டமைப்பு ஒளிஊடுருவக்கூடிய பச்சை நிறமாக மாறும் வரை நகர்த்தவும், "
 "இது சரியான கட்டமைப்பைக் குறிக்கிறது."
 
-#: src/cgame/cg_servercmds.cpp:531
+#: src/cgame/cg_servercmds.cpp:546
 msgid "There is no room to build here"
 msgstr "இங்கே கட்ட இடமில்லை"
 
-#: src/cgame/cg_servercmds.cpp:535
+#: src/cgame/cg_servercmds.cpp:550
 msgid ""
 "Cannot build on this surface. The surface is too steep or unsuitable for "
 "building. Please choose another site for this structure."
@@ -5038,15 +5038,15 @@ msgstr ""
 "இந்த மேற்பரப்பில் உருவாக்க முடியாது. மேற்பரப்பு மிகவும் செங்குத்தானது அல்லது கட்டமைக்க "
 "பொருத்தமற்றது. இந்த கட்டமைப்பிற்கு மற்றொரு தளத்தைத் தேர்வுசெய்க."
 
-#: src/cgame/cg_servercmds.cpp:538
+#: src/cgame/cg_servercmds.cpp:553
 msgid "Cannot build on this surface"
 msgstr "இந்த மேற்பரப்பில் உருவாக்க முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:543
+#: src/cgame/cg_servercmds.cpp:558
 msgid "You cannot build that structure"
 msgstr "நீங்கள் அந்த கட்டமைப்பை உருவாக்க முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:547
+#: src/cgame/cg_servercmds.cpp:562
 msgid ""
 "This action would remove your team's last spawn point, which often quickly "
 "results in a loss. Try building more spawns."
@@ -5054,11 +5054,11 @@ msgstr ""
 "இந்த நடவடிக்கை உங்கள் அணியின் கடைசி ச்பான் புள்ளியை அகற்றும், இது பெரும்பாலும் விரைவாக "
 "இழப்பை ஏற்படுத்துகிறது. மேலும் ச்பான்களை உருவாக்க முயற்சிக்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:550
+#: src/cgame/cg_servercmds.cpp:565
 msgid "You may not deconstruct the last spawn"
 msgstr "கடைசி ச்பானை நீங்கள் மறுகட்டமைக்கக்கூடாது"
 
-#: src/cgame/cg_servercmds.cpp:554
+#: src/cgame/cg_servercmds.cpp:569
 msgid ""
 "The main structure is protected against instant removal. When it is marked, "
 "you can move it to another place by building it there."
@@ -5066,23 +5066,23 @@ msgstr ""
 "முக்கிய அமைப்பு உடனடி அகற்றுதலுக்கு எதிராக பாதுகாக்கப்படுகிறது. அது "
 "குறிக்கப்படும்போது, அதை அங்கே கட்டுவதன் மூலம் அதை வேறு இடத்திற்கு நகர்த்தலாம்."
 
-#: src/cgame/cg_servercmds.cpp:557
+#: src/cgame/cg_servercmds.cpp:572
 msgid "You may not deconstruct this structure"
 msgstr "இந்த கட்டமைப்பை நீங்கள் மறுகட்டமைக்கக்கூடாது"
 
-#: src/cgame/cg_servercmds.cpp:561
+#: src/cgame/cg_servercmds.cpp:576
 msgid "Building has been disabled on the server for your team."
 msgstr "உங்கள் அணிக்கான சேவையகத்தில் கட்டிடம் முடக்கப்பட்டுள்ளது."
 
-#: src/cgame/cg_servercmds.cpp:566
+#: src/cgame/cg_servercmds.cpp:581
 msgid "You are no longer permitted to build."
 msgstr "நீங்கள் இனி கட்ட அனுமதிக்கப்படுவதில்லை."
 
-#: src/cgame/cg_servercmds.cpp:567
+#: src/cgame/cg_servercmds.cpp:582
 msgid "You are no longer permitted to build"
 msgstr "நீங்கள் இனி கட்ட அனுமதிக்கப்படுவதில்லை"
 
-#: src/cgame/cg_servercmds.cpp:571
+#: src/cgame/cg_servercmds.cpp:586
 msgid ""
 "Your team has decided to admit defeat and concede the game: There's no point "
 "in building anything anymore."
@@ -5090,11 +5090,11 @@ msgstr ""
 "தோல்வியை ஒப்புக் கொள்ளவும், விளையாட்டை ஒப்புக்கொள்ளவும் உங்கள் குழு முடிவு செய்துள்ளது: "
 "இனி எதையும் கட்டுவதில் எந்த அர்த்தமும் இல்லை."
 
-#: src/cgame/cg_servercmds.cpp:573
+#: src/cgame/cg_servercmds.cpp:588
 msgid "Cannot build after admitting defeat"
 msgstr "தோல்வியை ஒப்புக் கொண்ட பிறகு உருவாக்க முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:577
+#: src/cgame/cg_servercmds.cpp:592
 msgid ""
 "There are no resources remaining. Free up resources by marking existing "
 "buildables for deconstruction."
@@ -5102,32 +5102,32 @@ msgstr ""
 "மீதமுள்ள ஆதாரங்கள் இல்லை. மறுகட்டமைப்பிற்கு ஏற்கனவே உள்ள கட்டடங்களைக் குறிப்பதன் மூலம் "
 "வளங்களை விடுவிக்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:579
+#: src/cgame/cg_servercmds.cpp:594
 msgid "There are no resources remaining"
 msgstr "மீதமுள்ள ஆதாரங்கள் இல்லை"
 
-#: src/cgame/cg_servercmds.cpp:583
+#: src/cgame/cg_servercmds.cpp:598
 msgid "This buildable is not powered."
 msgstr "இந்த கட்டமைக்கக்கூடியது இயக்கப்படவில்லை."
 
-#: src/cgame/cg_servercmds.cpp:584
+#: src/cgame/cg_servercmds.cpp:599
 msgid "This buildable is not powered"
 msgstr "இந்த கட்டமைக்கக்கூடியது இயக்கப்படவில்லை"
 
-#: src/cgame/cg_servercmds.cpp:588
+#: src/cgame/cg_servercmds.cpp:603
 msgid ""
 "There is no reactor. A reactor must be built before any other structure can "
 "be placed."
 msgstr "உலை இல்லை. வேறு எந்த கட்டமைப்பையும் வைப்பதற்கு முன்பு ஒரு உலை கட்டப்பட வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:594
+#: src/cgame/cg_servercmds.cpp:609
 msgid ""
 "There can only be one Reactor. Mark the existing one if you wish to move it."
 msgstr ""
 "ஒரு உலை மட்டுமே இருக்க முடியும். நீங்கள் அதை நகர்த்த விரும்பினால் ஏற்கனவே இருக்கும் ஒன்றைக் "
 "குறிக்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:605
+#: src/cgame/cg_servercmds.cpp:620
 msgid ""
 "You have no room to carry this. Please sell any conflicting upgrades before "
 "purchasing this item."
@@ -5135,20 +5135,20 @@ msgstr ""
 "இதைச் சுமக்க உங்களுக்கு இடமில்லை. இந்த உருப்படியை வாங்குவதற்கு முன் முரண்பட்ட மேம்பாடுகளை "
 "விற்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:607
+#: src/cgame/cg_servercmds.cpp:622
 msgid "You have no room to carry this"
 msgstr "இதைச் சுமக்க உங்களுக்கு இடமில்லை"
 
-#: src/cgame/cg_servercmds.cpp:611
+#: src/cgame/cg_servercmds.cpp:626
 msgid ""
 "Insufficient funds. You do not have enough credits to perform this action."
 msgstr "போதுமான பொருள். இந்த செயலைச் செய்ய உங்களுக்கு போதுமான வரவு இல்லை."
 
-#: src/cgame/cg_servercmds.cpp:613
+#: src/cgame/cg_servercmds.cpp:628
 msgid "Insufficient funds"
 msgstr "போதுமான பொருள்"
 
-#: src/cgame/cg_servercmds.cpp:617
+#: src/cgame/cg_servercmds.cpp:632
 msgid ""
 "You already hold this item. It is not possible to carry multiple items of "
 "the same type."
@@ -5156,11 +5156,11 @@ msgstr ""
 "நீங்கள் ஏற்கனவே இந்த உருப்படியை வைத்திருக்கிறீர்கள். ஒரே வகையின் பல உருப்படிகளை எடுத்துச் "
 "செல்ல முடியாது."
 
-#: src/cgame/cg_servercmds.cpp:619
+#: src/cgame/cg_servercmds.cpp:634
 msgid "You already hold this item"
 msgstr "நீங்கள் ஏற்கனவே இந்த உருப்படியை வைத்திருக்கிறீர்கள்"
 
-#: src/cgame/cg_servercmds.cpp:623
+#: src/cgame/cg_servercmds.cpp:638
 msgid ""
 "You must be near a powered Armoury in order to purchase weapons, upgrades or "
 "ammunition."
@@ -5168,11 +5168,11 @@ msgstr ""
 "ஆயுதங்கள், மேம்பாடுகள் அல்லது வெடிமருந்துகளை வாங்க நீங்கள் இயங்கும் ஆயுதக் களஞ்சியத்திற்கு "
 "அருகில் இருக்க வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:625
+#: src/cgame/cg_servercmds.cpp:640
 msgid "You must be near a powered Armoury"
 msgstr "நீங்கள் இயங்கும் ஆயுதக் களஞ்சியத்திற்கு அருகில் இருக்க வேண்டும்"
 
-#: src/cgame/cg_servercmds.cpp:629
+#: src/cgame/cg_servercmds.cpp:644
 msgid ""
 "You must be near a Reactor, a Drill or a powered Armoury in order to "
 "purchase energy ammunition."
@@ -5180,20 +5180,20 @@ msgstr ""
 "ஆற்றல் வெடிமருந்துகளை வாங்குவதற்கு நீங்கள் ஒரு உலை, ஒரு துரப்பணம் அல்லது இயங்கும் ஆயுதக் "
 "களஞ்சியத்திற்கு அருகில் இருக்க வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:631
+#: src/cgame/cg_servercmds.cpp:646
 msgid "You must be near a Reactor, a Drill or a powered Armoury"
 msgstr ""
 "நீங்கள் ஒரு உலை, ஒரு துரப்பணம் அல்லது இயங்கும் ஆயுதக் களஞ்சியத்திற்கு அருகில் இருக்க வேண்டும்"
 
-#: src/cgame/cg_servercmds.cpp:635
+#: src/cgame/cg_servercmds.cpp:650
 msgid "There is not enough room here to change armour."
 msgstr "கவசத்தை மாற்ற இங்கு போதுமான இடம் இல்லை."
 
-#: src/cgame/cg_servercmds.cpp:636
+#: src/cgame/cg_servercmds.cpp:651
 msgid "Not enough room here to change armour."
 msgstr "கவசத்தை மாற்ற இங்கு போதுமான இடம் இல்லை."
 
-#: src/cgame/cg_servercmds.cpp:640
+#: src/cgame/cg_servercmds.cpp:655
 msgid ""
 "You are not allowed to buy or sell weapons until your build timer has "
 "expired."
@@ -5201,25 +5201,25 @@ msgstr ""
 "உங்கள் பில்ட் நேரங்குறிகருவி காலாவதியாகும் வரை ஆயுதங்களை வாங்கவோ விற்கவோ உங்களுக்கு "
 "இசைவு இல்லை."
 
-#: src/cgame/cg_servercmds.cpp:642
+#: src/cgame/cg_servercmds.cpp:657
 msgid "You can not buy or sell weapons until your build timer expires"
 msgstr ""
 "உங்கள் உருவாக்க நேரங்குறிகருவி காலாவதியாகும் வரை நீங்கள் ஆயுதங்களை வாங்கவோ விற்கவோ "
 "முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:647
+#: src/cgame/cg_servercmds.cpp:662
 msgid "You must be dead to use the class command"
 msgstr "வகுப்பு கட்டளையைப் பயன்படுத்த நீங்கள் இறந்திருக்க வேண்டும்"
 
-#: src/cgame/cg_servercmds.cpp:651
+#: src/cgame/cg_servercmds.cpp:666
 msgid "Unknown starting item"
 msgstr "தெரியாத தொடக்க உருப்படி"
 
-#: src/cgame/cg_servercmds.cpp:655
+#: src/cgame/cg_servercmds.cpp:670
 msgid "Starting item not allowed"
 msgstr "தொடக்க உருப்படி அனுமதிக்கப்படவில்லை"
 
-#: src/cgame/cg_servercmds.cpp:661
+#: src/cgame/cg_servercmds.cpp:676
 msgid ""
 "There is no Overmind. An Overmind must be built before any other structure "
 "can be placed."
@@ -5227,7 +5227,7 @@ msgstr ""
 "மிகைப்படுத்தல் இல்லை. வேறு எந்த கட்டமைப்பையும் வைப்பதற்கு முன்பு ஒரு மிகைப்படுத்தல் கட்டப்பட "
 "வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:667
+#: src/cgame/cg_servercmds.cpp:682
 msgid ""
 "There can only be one Overmind. Deconstruct the existing one if you wish to "
 "move it."
@@ -5235,7 +5235,7 @@ msgstr ""
 "ஒரு மிகைப்படுத்தல் மட்டுமே இருக்க முடியும். நீங்கள் அதை நகர்த்த விரும்பினால் ஏற்கனவே "
 "இருக்கும் ஒன்றை மறுகட்டமைக்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:678
+#: src/cgame/cg_servercmds.cpp:693
 msgid ""
 "The Overmind cannot control any more structures. Deconstruct existing "
 "structures to build more."
@@ -5243,11 +5243,11 @@ msgstr ""
 "ஓவர் மைண்ட் மேலும் எந்த கட்டமைப்புகளையும் கட்டுப்படுத்த முடியாது. மேலும் உருவாக்க இருக்கும் "
 "கட்டமைப்புகளை மறுகட்டமைக்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:680
+#: src/cgame/cg_servercmds.cpp:695
 msgid "The Overmind cannot control any more structures"
 msgstr "ஓவர் மைண்ட் மேலும் எந்த கட்டமைப்புகளையும் கட்டுப்படுத்த முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:684
+#: src/cgame/cg_servercmds.cpp:699
 msgid ""
 "There is no room to evolve here. Move away from walls or other nearby "
 "objects and try again."
@@ -5255,11 +5255,11 @@ msgstr ""
 "இங்கே உருவாக இடமில்லை. சுவர்கள் அல்லது அருகிலுள்ள பிற பொருட்களிலிருந்து விலகி மீண்டும் "
 "முயற்சிக்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:686
+#: src/cgame/cg_servercmds.cpp:701
 msgid "There is no room to evolve here"
 msgstr "இங்கே உருவாக இடமில்லை"
 
-#: src/cgame/cg_servercmds.cpp:690
+#: src/cgame/cg_servercmds.cpp:705
 msgid ""
 "This location is too close to the enemy to evolve. Move away from the "
 "enemy's presence and try again."
@@ -5267,75 +5267,75 @@ msgstr ""
 "இந்த இடம் உருவாக எதிரிக்கு மிக அருகில் உள்ளது. எதிரியின் இருப்பிலிருந்து விலகி மீண்டும் "
 "முயற்சிக்கவும்."
 
-#: src/cgame/cg_servercmds.cpp:692
+#: src/cgame/cg_servercmds.cpp:707
 msgid "This location is too close to the enemy to evolve"
 msgstr "இந்த இடம் உருவாக எதிரிக்கு மிக அருகில் உள்ளது"
 
-#: src/cgame/cg_servercmds.cpp:696 src/cgame/cg_servercmds.cpp:697
+#: src/cgame/cg_servercmds.cpp:711 src/cgame/cg_servercmds.cpp:712
 msgid "The Overmind is too far away to devolve."
 msgstr "மிகைப்படுத்தல் வெகு தொலைவில் உள்ளது."
 
-#: src/cgame/cg_servercmds.cpp:701
+#: src/cgame/cg_servercmds.cpp:716
 msgid ""
 "There is no Overmind. An Overmind must be built to allow you to upgrade."
 msgstr ""
 "மிகைப்படுத்தல் இல்லை. மேம்படுத்த உங்களை அனுமதிக்க ஒரு மிகைப்படுத்தல் கட்டப்பட வேண்டும்."
 
-#: src/cgame/cg_servercmds.cpp:707
+#: src/cgame/cg_servercmds.cpp:722
 msgid "You cannot evolve until your build timer has expired."
 msgstr "உங்கள் உருவாக்க நேரங்குறிகருவி காலாவதியாகும் வரை நீங்கள் உருவாக முடியாது."
 
-#: src/cgame/cg_servercmds.cpp:708
+#: src/cgame/cg_servercmds.cpp:723
 msgid "You cannot evolve until your build timer expires"
 msgstr "உங்கள் உருவாக்க நேரங்குறிகருவி காலாவதியாகும் வரை நீங்கள் உருவாக முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:712
+#: src/cgame/cg_servercmds.cpp:727
 msgid "Wait a second after attacking or evolving"
 msgstr "தாக்குதல் அல்லது உருவான பிறகு ஒரு நொடி காத்திருங்கள்"
 
-#: src/cgame/cg_servercmds.cpp:720
+#: src/cgame/cg_servercmds.cpp:735
 #, c-format
 msgid "You cannot evolve into a %s"
 msgstr "நீங்கள் ஒரு %s ஆக உருவாக முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:725
+#: src/cgame/cg_servercmds.cpp:740
 msgid "You cannot evolve while wallwalking"
 msgstr "வால்விங் செய்யும் போது நீங்கள் உருவாக முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:729
+#: src/cgame/cg_servercmds.cpp:744
 msgid "Unknown class"
 msgstr "தெரியாத வகுப்பு"
 
-#: src/cgame/cg_servercmds.cpp:733
+#: src/cgame/cg_servercmds.cpp:748
 #, c-format
 msgid "You cannot spawn as a %s"
 msgstr "நீங்கள் ஒரு %s ஆக உருவாக முடியாது"
 
-#: src/cgame/cg_servercmds.cpp:738
+#: src/cgame/cg_servercmds.cpp:753
 #, c-format
 msgid "The %s is not allowed"
 msgstr "%s அனுமதிக்கப்படவில்லை"
 
-#: src/cgame/cg_servercmds.cpp:748
+#: src/cgame/cg_servercmds.cpp:763
 #, c-format
 msgid "cgame: debug: no such menu %d"
 msgstr "CGAME: பிழைத்திருத்தம்: அத்தகைய பட்டியல் இல்லை %d"
 
-#: src/cgame/cg_servercmds.cpp:851
+#: src/cgame/cg_servercmds.cpp:866
 msgid "^1*DEAD*^*"
 msgstr "^1*இறந்த*^*"
 
-#: src/cgame/cg_servercmds.cpp:912
+#: src/cgame/cg_servercmds.cpp:927
 #, c-format
 msgid "%sPrivate message from: ^7%s"
 msgstr "%sதனிப்பட்ட செய்தி இவரிடமிருந்து: ^7%s"
 
-#: src/cgame/cg_servercmds.cpp:920
+#: src/cgame/cg_servercmds.cpp:935
 #, c-format
 msgid ">> to reply, say: '/m %d [your message]' or '/r [your message]' <<"
 msgstr "பதிலளிக்க, '/m %d [உங்கள் செய்தி]' அல்லது '/r [உங்கள் செய்தி]' <<"
 
-#: src/cgame/cg_servercmds.cpp:1411
+#: src/cgame/cg_servercmds.cpp:1426
 #, c-format
 msgid "Unknown client game command: %s"
 msgstr "தெரியாத கிளையன்ட் விளையாட்டு கட்டளை: %s"
@@ -5751,43 +5751,43 @@ msgstr "$ 1 $ ^3deconstructed ^* by $ 2 $"
 msgid "$1$ ^3DESTROYED^* by $2$"
 msgstr "$ 1 $ ^3destroyed ^* by $ 2 $"
 
-#: src/sgame/sg_main.cpp:1997
+#: src/sgame/sg_main.cpp:1998
 msgid "Timelimit hit"
 msgstr "டைம்லிமிட் இட்"
 
-#: src/sgame/sg_main.cpp:2008
+#: src/sgame/sg_main.cpp:2009
 msgid "$1$ minutes remaining!"
 msgstr "$ 1 $ நிமிடங்கள் மீதமுள்ளவை!"
 
-#: src/sgame/sg_main.cpp:2016
+#: src/sgame/sg_main.cpp:2017
 msgid "1 minute remaining!"
 msgstr "1 மணித்துளி மீதமுள்ள!"
 
-#: src/sgame/sg_main.cpp:2029
+#: src/sgame/sg_main.cpp:2030
 msgid "Humans win"
 msgstr "மனிதர்கள் செய் பெறுகிறார்கள்"
 
-#: src/sgame/sg_main.cpp:2043
+#: src/sgame/sg_main.cpp:2044
 msgid "Aliens win"
 msgstr "வேற்றுகிரகவாசிகள் செய் பெறுகிறார்கள்"
 
-#: src/sgame/sg_main.cpp:2057
+#: src/sgame/sg_main.cpp:2058
 msgid "Empty teams skip map time exceeded."
 msgstr "வெற்று அணிகள் வரைபட நேரம் மீறியது."
 
-#: src/sgame/sg_main.cpp:2263
+#: src/sgame/sg_main.cpp:2264
 msgid "The game has been paused. Please wait."
 msgstr "விளையாட்டு இடைநிறுத்தப்பட்டுள்ளது. தயவுசெய்து காத்திருங்கள்."
 
-#: src/sgame/sg_main.cpp:2267
+#: src/sgame/sg_main.cpp:2268
 msgid "Server: Game will auto-unpause in $1$ seconds"
 msgstr "சேவையகம்: விளையாட்டு $ 1 $ வினாடிகளில் தானாக முன்வரும்"
 
-#: src/sgame/sg_main.cpp:2286
+#: src/sgame/sg_main.cpp:2287
 msgid "Server: The game has been unpaused automatically ($1$ minutes max)"
 msgstr "சேவையகம்: விளையாட்டு தானாகவே பொருந்தாது (அதிகபட்சம் $ 1 $ நிமிடங்கள்)"
 
-#: src/sgame/sg_main.cpp:2289
+#: src/sgame/sg_main.cpp:2290
 msgid "The game has been unpaused!"
 msgstr "விளையாட்டு பொருந்தாது!"
 
